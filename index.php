@@ -85,7 +85,7 @@ print_r(get_headers($url, 1));
 $headerArray = get_headers($url, 1);
 echo "<p style='margin-top:2em;'>header total results: " . $headerArray['Omeka-Total-Results'] . "</p>";
 
- $itemArray  = json_decode($jsondata, true); // decode JSON to associative array
+$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
 
 echo '<p>&nbsp;</p><p>Dump of Items json</p>';
 
@@ -111,23 +111,23 @@ $jsondata = file_get_contents($json_string);
 $itemArray  = json_decode($jsondata, true); // decode JSON to associative array
 $itemArrayDesc = array_reverse($itemArray);
 
-  echo "<p>Total Items = " . $headerArray['Omeka-Total-Results'] . " which means " . $howMany . " pages</p>";
+echo "<p>Total Items = " . $headerArray['Omeka-Total-Results'] . " which means " . $howMany . " pages (sets of 50)</p>";
 
-    $i = 0;
-    foreach($itemArrayDesc as $info){
-        echo "<div style='margin-bottom:3em;'>"; 
+$i = 0;
+foreach($itemArrayDesc as $info){
+  echo "<div style='margin-bottom:3em;'>"; 
 
-$theVar = $info['files']['url'];
-$json_string2 = $theVar;
-$jsondata2 = file_get_contents($json_string2);
-$itemArray2  = json_decode($jsondata2, true);
-foreach($itemArray2 as $info2){
-  echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
-}
-        echo "<div style='font-size:.8em;'>" . $info['element_texts'][0]['text'] . " (item id " . $info['id'] . ")</div></div>";
-        
-    if (++$i == 5) break;
+  $theVar = $info['files']['url'];
+  $json_string2 = $theVar;
+  $jsondata2 = file_get_contents($json_string2);
+  $itemArray2  = json_decode($jsondata2, true);
+    foreach($itemArray2 as $info2){
+      echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
+  echo "<div style='font-size:.8em;'>" . $info['element_texts'][0]['text'] . " (item id " . $info['id'] . ")</div></div>";
+        
+  if (++$i == 5) break;
+}
 
 // exhibits
 
@@ -138,15 +138,15 @@ $jsondata = file_get_contents($json_string);
 $itemArray  = json_decode($jsondata, true); // decode JSON to associative array
 $itemArrayDesc = array_reverse($itemArray);
 
-    echo "<h2>Exhibits</h2>";
-    //$j = 0;
-    foreach($itemArrayDesc as $info){
-        //echo "<div>";
+echo "<h2>Exhibits</h2>";
+//$j = 0;
+foreach($itemArrayDesc as $info){
+  //echo "<div>";
 
-        echo "<p><a href='http://exhibits.library.gwu.edu/exhibits/show/" . $info['slug'] . "'>" . $info['title'] . "</a> (exhibit id " . $info['id'] . ")</p>";
+  echo "<p><a href='http://exhibits.library.gwu.edu/exhibits/show/" . $info['slug'] . "'>" . $info['title'] . "</a> (exhibit id " . $info['id'] . ")</p>";
 
-    //if (++$j == 30) break;
-    }
+  //if (++$j == 30) break;
+}
 
 // collections
 
@@ -157,23 +157,21 @@ $jsondata = file_get_contents($json_string);
 $itemArray  = json_decode($jsondata, true); // decode JSON to associative array
 $itemArrayDesc = array_reverse($itemArray);
 
-    echo "<h2 style='margin-top:2em;'>Collections</h2>";
-    $j = 0;
-    foreach($itemArrayDesc as $info){
-        //echo "<div>";
+echo "<h2 style='margin-top:2em;'>Collections</h2>";
+$j = 0;
+foreach($itemArrayDesc as $info){
+  //echo "<div>";
 
-        echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</p>";
+  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</p>";
 
-    if (++$j == 30) break;
-    }
-
-
+  if (++$j == 30) break;
+}
 
 // var_dump($itemArray2);
 
 $arr = $obj;
 foreach ($arr as &$value) {
-    //echo 'test ' . $arr[0] . '<br>';
+  //echo 'test ' . $arr[0] . '<br>';
 }
 
 //echo "<pre>";
