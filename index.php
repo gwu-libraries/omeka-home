@@ -62,7 +62,13 @@
         
         <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
         <article class="libsite-container container">
-            
+        
+            <div class="row-fluid">
+              <div class="span12">
+              <h1>Welcome Text</h1>
+              <p>Integer lobortis odio ac enim varius mollis. Aliquam id velit elit. Mauris vel purus eu est tempus maximus.</p> <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ante purus, sollicitudin ut imperdiet vel, bibendum non augue.</p> <p>Nulla vel neque bibendum, aliquam lorem eu, blandit diam. Sed eu tellus imperdiet, blandit ante sagittis, molestie erat. Proin sit amet vestibulum ligula, a pharetra odio. In ut eros in lectus venenatis elementum.</p>
+              </div>
+            </div>
             <div class="row-fluid">
                 <div class="span12"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
                     <h1>Omeka Custom Home</h1>
@@ -70,7 +76,7 @@
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="span8"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
+                <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Var Dump</h2>
 <?php 
 $json_string = 'http://exhibits.library.gwu.edu/api/items';
