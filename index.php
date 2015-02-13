@@ -14,9 +14,11 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
+        <link href="omeka-home.css" rel="stylesheet">
 	    <!-- print styles are included in base libheader7_lite.css --> 
   
         <!-- js links are at the bottom of the page -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
         <!--[if lt IE 9]>
