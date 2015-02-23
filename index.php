@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Omeka Custom Home</title><!-- your page title -->
+        <title>GW Libraries Exhibits</title><!-- your page title -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- important! -->
         <meta name="description" content=""><!-- optional -->
         <meta name="author" content=""><!-- optional -->
@@ -15,9 +15,9 @@
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
         <link href="omeka-home.css" rel="stylesheet">
-	    <!-- print styles are included in base libheader7_lite.css --> 
+	<!-- print styles are included in base libheader7_lite.css --> 
   
-        <!-- js links are at the bottom of the page -->
+        <!-- js (some js links are at the bottom of the page) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
