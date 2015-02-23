@@ -64,12 +64,12 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="border:1px solid #ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                <div class="span12" style="background:#ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
                     <h1>Omeka Custom Home</h1>
                     <p>This is the container for the image slideshow</p>
                 </div>
             </div>
-            <div class="row-fluid">
+            <div class="row-fluid" style="margin-top:1em; background:#ccc; width:100%;">
               <div class="span2">
 		ABOUT US	
               </div>
@@ -90,7 +90,7 @@
               </div>
             </div>
 
-	    <div style="height:200px;" class="row-fluid">
+	    <div style="margin-top:1em; background:#ccc; height:200px;" class="row-fluid">
 	      <div class="span5">
 	        Column of text
 	      </div>
@@ -102,15 +102,15 @@
               </div>
 	    </div>
 
-            <div style="height:500px;" class="row-fluid">
-              <div class="span3">
+            <div style="margin-top: 1em; height:500px;" class="row-fluid">
+              <div class="span3" style="background:#ccc;">
                 <h2>Collections</h2>
 		<h2>Recent Items</h2>
               </div>
-              <div class="span6">
+              <div class="span6" style="background:#ccc;">
                 (featured exhibit)
               </div>
-              <div class="span3">
+              <div class="span3" style="background:#ccc;">
                 <h2>Online Exhibits</h2>
               </div>
             </div>
