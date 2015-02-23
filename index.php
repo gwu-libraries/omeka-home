@@ -64,17 +64,32 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-              <div class="span12">
-              <h1>Welcome Text</h1>
-              <p>Integer lobortis odio ac enim varius mollis. Aliquam id velit elit. Mauris vel purus eu est tempus maximus.</p> <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ante purus, sollicitudin ut imperdiet vel, bibendum non augue.</p> <p>Nulla vel neque bibendum, aliquam lorem eu, blandit diam. Sed eu tellus imperdiet, blandit ante sagittis, molestie erat. Proin sit amet vestibulum ligula, a pharetra odio. In ut eros in lectus venenatis elementum.</p>
-              </div>
-            </div>
-            <div class="row-fluid">
-                <div class="span12"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                <div class="span12" style="border:1px solid #ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
                     <h1>Omeka Custom Home</h1>
-                    <p>Testing different tools for a custom Omeka 'home' page</p>
+                    <p>This is the container for the image slideshow</p>
                 </div>
             </div>
+            <div class="row-fluid">
+              <div class="span2">
+		ABOUT US	
+              </div>
+              <div class="span2">
+                EXHIBITS
+              </div>
+              <div class="span2">
+                CALENDAR
+              </div>
+              <div class="span2">
+                COLLECTIONS
+              </div>
+              <div class="span2">
+                ITEMS
+              </div>
+              <div class="span2">
+                CONTACT US
+              </div>
+            </div>
+
             <div class="row-fluid">
                 <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Var Dump</h2>
