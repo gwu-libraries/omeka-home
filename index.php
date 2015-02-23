@@ -90,6 +90,31 @@
               </div>
             </div>
 
+	    <div style="height:200px;" class="row-fluid">
+	      <div class="span5">
+	        Column of text
+	      </div>
+              <div class="span5">
+		Column of text
+              </div>
+              <div class="span2">
+		(Empty span2)
+              </div>
+	    </div>
+
+            <div style="height:500px;" class="row-fluid">
+              <div class="span3">
+                <h2>Collections</h2>
+		<h2>Recent Items</h2>
+              </div>
+              <div class="span6">
+                (featured exhibit)
+              </div>
+              <div class="span3">
+                <h2>Online Exhibits</h2>
+              </div>
+            </div>
+
             <div class="row-fluid">
                 <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Var Dump</h2>
