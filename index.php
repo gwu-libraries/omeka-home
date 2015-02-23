@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Omeka Custom Home</title><!-- your page title -->
+        <title>GW Libraries Exhibits</title><!-- your page title -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- important! -->
         <meta name="description" content=""><!-- optional -->
         <meta name="author" content=""><!-- optional -->
@@ -14,9 +14,11 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
-	    <!-- print styles are included in base libheader7_lite.css --> 
+        <link href="omeka-home.css" rel="stylesheet">
+	<!-- print styles are included in base libheader7_lite.css --> 
   
-        <!-- js links are at the bottom of the page -->
+        <!-- js (some js links are at the bottom of the page) -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
         <!--[if lt IE 9]>
@@ -34,13 +36,10 @@
             <div id="libheader-container">
                 <div id="libheader" class="container">
                     <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="http://library.gwu.edu/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
-                    <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">GW Libraries</a></div>
+                    <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">Omeka Custom Home</a></div>
 
                     <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
-                    <div class="libheader-link"><a href="#" target="_blank" title="">Placeholder Link 1</a></div>
-                    <!-- this is an optional 'bullet' to place between links -->
-                    <div class="bullet">&bull;</div>
-                    <div class="libheader-link"><a href="#" target="_blank" title="">Placeholder Link 2</a></div>
+                    <div class="libheader-link"><a href="#" target="_blank" title="">(this blue banner with be replaced by the "exhibits" banner)</a></div>
                     <!-- end optional links -->
 
                     <!-- optional bootstrap user icons, example placement -->
@@ -60,15 +59,65 @@
         
         <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
         <article class="libsite-container container">
-            
+        
             <div class="row-fluid">
-                <div class="span12"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
-                    <h1>Omeka Custom Home</h1>
-                    <p>Testing different tools for a custom Omeka 'home' page</p>
+                <div class="span12" style="margin-top:1em; background:#ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                    <h2>(this is the container for the image slideshow)</h2>
                 </div>
             </div>
-            <div class="row-fluid">
-                <div class="span8"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
+            <div class="row-fluid" style="margin-top:1em; background:#ccc; width:100%;">
+              <div class="span2">
+		ABOUT US	
+              </div>
+              <div class="span2">
+                EXHIBITS
+              </div>
+              <div class="span2">
+                CALENDAR
+              </div>
+              <div class="span2">
+                COLLECTIONS
+              </div>
+              <div class="span2">
+                ITEMS
+              </div>
+              <div class="span2">
+                CONTACT US
+              </div>
+            </div>
+
+	    <div style="margin-top:1em; background:#ccc;" class="row-fluid">
+	      <div class="span12">
+		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
+	      </div>
+	    </div>
+	    <div style="background:#ccc; min-height:150px;" class="row-fluid">
+	      <div style="font-size:.8em;" class="span5">
+	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed. Cum dis habitant dignissim orci, orci ligula arcu lobortis, cras consectetuer tempor ut, facilisi morbi, hendrerit massa ut in iaculis sem eget.</p>
+	      </div>
+              <div style="font-size:.8em;" class="span5">
+		<p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. Porttitor in tempus, eu eu lorem ornare, dictum vitae velit laoreet ut bibendum vitae. Lorem dui, ultrices at commodo lobortis hendrerit, faucibus libero.</p>
+              </div>
+              <div class="span2">
+		(empty span2)
+              </div>
+	    </div>
+
+            <div style="margin-top: 1em;" class="row-fluid">
+              <div class="span3" style="min-height:380px; background:#ccc;">
+                <h2>Collections</h2>
+		<h2>Recent Items</h2>
+              </div>
+              <div class="span6" style="min-height:380px; background:#ccc;">
+                (featured exhibit)
+              </div>
+              <div class="span3" style="min-height:380px; background:#ccc;">
+                <h2>Online Exhibits</h2>
+              </div>
+            </div>
+
+            <div class="row-fluid" style="display:none;">
+                <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Var Dump</h2>
 <?php 
 $json_string = 'http://exhibits.library.gwu.edu/api/items';
@@ -192,11 +241,7 @@ foreach ($arr as &$value) {
                             <span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:gelman@gwu.edu" target="_blank" title="">gelman@gwu.edu</a>
                         </div>
                         <div id="footer-utility">
-                            <span><a href="#">Utility Link 1</a></span>
-                            <span> &#8226; </span>
-                            <span><a href="#">Utility Link 2</a></span>
-                            <span> &#8226; </span>
-                            <span><a href="#">Utility Link 3</a></span>
+                            <span><a href="#">(this blue footer will be the darker taller Exhibits footer)</a></span>
                         </div>
                     </div>
                 </div>
