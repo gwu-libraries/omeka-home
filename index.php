@@ -87,27 +87,32 @@
               </div>
             </div>
 
-	    <div style="margin-top:1em; background:#ccc; height:200px;" class="row-fluid">
-	      <div class="span5">
-	        Column of text
+	    <div style="margin-top:1em; background:#ccc;" class="row-fluid">
+	      <div class="span12">
+		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
 	      </div>
-              <div class="span5">
-		Column of text
+	    </div>
+	    <div style="background:#ccc; min-height:150px;" class="row-fluid">
+	      <div style="font-size:.8em;" class="span5">
+	        <div class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed. Cum dis habitant dignissim orci, orci ligula arcu lobortis, cras consectetuer tempor ut, facilisi morbi, hendrerit massa ut in iaculis sem eget.</div>
+	      </div>
+              <div style="font-size:.8em;" class="span5">
+		<div class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. Porttitor in tempus, eu eu lorem ornare, dictum vitae velit laoreet ut bibendum vitae. Lorem dui, ultrices at commodo lobortis hendrerit, faucibus libero.</div>
               </div>
               <div class="span2">
-		(Empty span2)
+		(empty span2)
               </div>
 	    </div>
 
-            <div style="margin-top: 1em; height:500px;" class="row-fluid">
-              <div class="span3" style="background:#ccc;">
+            <div style="margin-top: 1em;" class="row-fluid">
+              <div class="span3" style="min-height:380px; background:#ccc;">
                 <h2>Collections</h2>
 		<h2>Recent Items</h2>
               </div>
-              <div class="span6" style="background:#ccc;">
+              <div class="span6" style="min-height:380px; background:#ccc;">
                 (featured exhibit)
               </div>
-              <div class="span3" style="background:#ccc;">
+              <div class="span3" style="min-height:380px; background:#ccc;">
                 <h2>Online Exhibits</h2>
               </div>
             </div>
