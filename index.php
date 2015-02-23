@@ -36,7 +36,7 @@
             <div id="libheader-container">
                 <div id="libheader" class="container">
                     <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="http://library.gwu.edu/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
-                    <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">GW Libraries</a></div>
+                    <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">Omeka Custom Home</a></div>
 
                     <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
                     <div class="libheader-link"><a href="#" target="_blank" title="">(this blue banner with be replaced by the "exhibits" banner)</a></div>
@@ -61,9 +61,8 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="background:#ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
-                    <h1>Omeka Custom Home</h1>
-                    <p>This is the container for the image slideshow</p>
+                <div class="span12" style="margin-top:1em; background:#ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                    <h2>(this is the container for the image slideshow)</h2>
                 </div>
             </div>
             <div class="row-fluid" style="margin-top:1em; background:#ccc; width:100%;">
@@ -94,10 +93,10 @@
 	    </div>
 	    <div style="background:#ccc; min-height:150px;" class="row-fluid">
 	      <div style="font-size:.8em;" class="span5">
-	        <div class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed. Cum dis habitant dignissim orci, orci ligula arcu lobortis, cras consectetuer tempor ut, facilisi morbi, hendrerit massa ut in iaculis sem eget.</div>
+	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed. Cum dis habitant dignissim orci, orci ligula arcu lobortis, cras consectetuer tempor ut, facilisi morbi, hendrerit massa ut in iaculis sem eget.</p>
 	      </div>
               <div style="font-size:.8em;" class="span5">
-		<div class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. Porttitor in tempus, eu eu lorem ornare, dictum vitae velit laoreet ut bibendum vitae. Lorem dui, ultrices at commodo lobortis hendrerit, faucibus libero.</div>
+		<p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. Porttitor in tempus, eu eu lorem ornare, dictum vitae velit laoreet ut bibendum vitae. Lorem dui, ultrices at commodo lobortis hendrerit, faucibus libero.</p>
               </div>
               <div class="span2">
 		(empty span2)
@@ -117,7 +116,7 @@
               </div>
             </div>
 
-            <div class="row-fluid">
+            <div class="row-fluid" style="display:none;">
                 <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Var Dump</h2>
 <?php 
