@@ -39,10 +39,7 @@
                     <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">GW Libraries</a></div>
 
                     <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
-                    <div class="libheader-link"><a href="#" target="_blank" title="">Placeholder Link 1</a></div>
-                    <!-- this is an optional 'bullet' to place between links -->
-                    <div class="bullet">&bull;</div>
-                    <div class="libheader-link"><a href="#" target="_blank" title="">Placeholder Link 2</a></div>
+                    <div class="libheader-link"><a href="#" target="_blank" title="">(this blue banner with be replaced by the "exhibits" banner)</a></div>
                     <!-- end optional links -->
 
                     <!-- optional bootstrap user icons, example placement -->
@@ -240,11 +237,7 @@ foreach ($arr as &$value) {
                             <span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:gelman@gwu.edu" target="_blank" title="">gelman@gwu.edu</a>
                         </div>
                         <div id="footer-utility">
-                            <span><a href="#">Utility Link 1</a></span>
-                            <span> &#8226; </span>
-                            <span><a href="#">Utility Link 2</a></span>
-                            <span> &#8226; </span>
-                            <span><a href="#">Utility Link 3</a></span>
+                            <span><a href="#">(this blue footer will be the darker taller Exhibits footer)</a></span>
                         </div>
                     </div>
                 </div>
