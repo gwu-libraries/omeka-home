@@ -105,7 +105,7 @@
 
             <div style="margin-top: 1em;" class="row-fluid">
               <div class="span3" style="min-height:380px; background:#ccc;">
-		<div style="padding: 0 .7em .3em;">
+		<div class="content-block">
                 <h2>COLLECTIONS</h2>
 		<style>li {font-size:.8em;}</style>
 		  <ul>
@@ -168,10 +168,12 @@ foreach($itemArrayDesc as $info){
 		</div>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
+		<div class="content-block">
                 (featured exhibit)
+		</div>
               </div>
               <div class="span3" style="min-height:380px; background:#ccc;">
-		<div style="padding: 0 .5em .3em;">
+		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
 		</div>
               </div>
