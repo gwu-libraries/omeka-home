@@ -106,7 +106,26 @@
             <div style="margin-top: 1em;" class="row-fluid">
               <div class="span3" style="min-height:380px; background:#ccc;">
                 <h2>Collections</h2>
+
+<?php
+// collections
+
+$json_string = 'http://exhibits.library.gwu.edu/api/collections';
+$jsondata = file_get_contents($json_string);
+
+$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
+$itemArrayDesc = array_reverse($itemArray);
+
+$j = 0;
+foreach($itemArrayDesc as $info){
+
+  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</a></p>";
+
+  if (++$j == 30) break;
+}
+?>
 		<h2>Recent Items</h2>
+		<p>some items here</p>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
                 (featured exhibit)
