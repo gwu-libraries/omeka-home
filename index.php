@@ -107,7 +107,8 @@
               <div class="span3" style="min-height:380px; background:#ccc;">
 		<div style="padding: 0 .5em .3em;">
                 <h2>COLLECTIONS</h2>
-
+		<style>li {font-size:.8em;}</style>
+		  <ul>
 <?php
 // collections
 
@@ -120,15 +121,18 @@ $itemArrayDesc = array_reverse($itemArray);
 $j = 0;
 foreach($itemArrayDesc as $info){
 
-  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . "</a></p>";
+  echo "<li><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . "</a></li>";
 
   if (++$j == 30) break;
 }
 ?>
-		<p><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
+		</ul>
+		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
 		<h2>RECENT ITEMS</h2>
-		<p>some items here</p>
-		<p><a href="http://exhibits.library.gwu.edu/items/browse">Browse Collections</a></p>
+		<ul>
+		<li>some items here</li>
+		</ul>
+		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Collections</a></p>
 		</div>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
