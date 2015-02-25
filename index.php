@@ -164,7 +164,7 @@ foreach($itemArrayDesc as $info){
     foreach($itemArray2 as $info2){
       //echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
-  echo "<li><a href=''>" . $info['element_texts'][0]['text'] . "</a></li>";
+  echo "<li><a href='http://exhibits.library.gwu.edu/items/show/" . $info['id']  . "'>" . $info['element_texts'][0]['text'] . "</a></li>";
 
   if (++$i == 7) break;
 }
