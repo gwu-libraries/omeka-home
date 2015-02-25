@@ -119,7 +119,7 @@ $itemArrayDesc = array_reverse($itemArray);
 $j = 0;
 foreach($itemArrayDesc as $info){
 
-  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text']"</a></p>";
+  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . "</a></p>";
 
   if (++$j == 30) break;
 }
