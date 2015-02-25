@@ -119,13 +119,15 @@ $itemArrayDesc = array_reverse($itemArray);
 $j = 0;
 foreach($itemArrayDesc as $info){
 
-  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</a></p>";
+  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text']"</a></p>";
 
   if (++$j == 30) break;
 }
 ?>
+		<p><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
 		<h2>Recent Items</h2>
 		<p>some items here</p>
+		<p><a href="http://exhibits.library.gwu.edu/items/browse">Browse Collections</a></p>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
                 (featured exhibit)
