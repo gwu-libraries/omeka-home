@@ -88,18 +88,24 @@
 
 	    <div style="margin-top:1em; background:#ccc;" class="row-fluid">
 	      <div class="span12">
+		<div class="content-block">
 		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
+		</div>
 	      </div>
 	    </div>
 	    <div style="background:#ccc; min-height:150px;" class="row-fluid">
 	      <div style="font-size:.8em;" class="span5">
+		<div class="content-block">
 	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed. Cum dis habitant dignissim orci, orci ligula arcu lobortis, cras consectetuer tempor ut, facilisi morbi, hendrerit massa ut in iaculis sem eget.</p>
+		</div>
 	      </div>
               <div style="font-size:.8em;" class="span5">
+		<div class="content-block">
 		<p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. Porttitor in tempus, eu eu lorem ornare, dictum vitae velit laoreet ut bibendum vitae. Lorem dui, ultrices at commodo lobortis hendrerit, faucibus libero.</p>
+		</div>
               </div>
               <div class="span2">
-		(empty span2)
+		<p>(empty span2)</p>
               </div>
 	    </div>
 
@@ -169,7 +175,7 @@ foreach($itemArrayDesc as $info){
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
 		<div class="content-block">
-                (featured exhibit)
+                <p>(featured exhibit)</p>
 		</div>
               </div>
               <div class="span3" style="min-height:380px; background:#ccc;">
