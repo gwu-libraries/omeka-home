@@ -105,7 +105,8 @@
 
             <div style="margin-top: 1em;" class="row-fluid">
               <div class="span3" style="min-height:380px; background:#ccc;">
-                <h2>Collections</h2>
+		<div style="padding: 0 .5em .3em;">
+                <h2>COLLECTIONS</h2>
 
 <?php
 // collections
@@ -125,15 +126,18 @@ foreach($itemArrayDesc as $info){
 }
 ?>
 		<p><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
-		<h2>Recent Items</h2>
+		<h2>RECENT ITEMS</h2>
 		<p>some items here</p>
 		<p><a href="http://exhibits.library.gwu.edu/items/browse">Browse Collections</a></p>
+		</div>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
                 (featured exhibit)
               </div>
               <div class="span3" style="min-height:380px; background:#ccc;">
-                <h2>Online Exhibits</h2>
+		<div style="padding: 0 .5em .3em;">
+                <h2>ONLINE EXHIBITS</h2>
+		</div>
               </div>
             </div>
 
