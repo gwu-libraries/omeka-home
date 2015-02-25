@@ -105,14 +105,77 @@
 
             <div style="margin-top: 1em;" class="row-fluid">
               <div class="span3" style="min-height:380px; background:#ccc;">
-                <h2>Collections</h2>
-		<h2>Recent Items</h2>
+		<div class="content-block">
+                <h2>COLLECTIONS</h2>
+		<style>li {font-size:.8em;}</style>
+		  <ul>
+<?php
+// collections
+
+$json_string = 'http://exhibits.library.gwu.edu/api/collections';
+$jsondata = file_get_contents($json_string);
+
+$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
+$itemArrayDesc = array_reverse($itemArray);
+
+$j = 0;
+foreach($itemArrayDesc as $info){
+
+  echo "<li><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . "</a></li>";
+
+  if (++$j == 30) break;
+}
+?>
+		</ul>
+		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
+		<h2>RECENT ITEMS</h2>
+		<ul>
+<?php
+// items
+
+$headerArray = get_headers($url, 1);
+// echo "<p style='margin-top:2em;'>header total results: " . $headerArray['Omeka-Total-Results'] . "</p>";
+
+$howMany = ceil($headerArray['Omeka-Total-Results'] / 50);
+
+$json_string = "http://exhibits.library.gwu.edu/api/items?page=" . $howMany;
+$jsondata = file_get_contents($json_string);
+//$obj = json_decode($jsondata,true);
+
+$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
+$itemArrayDesc = array_reverse($itemArray);
+
+//echo "<p>Total Items = " . $headerArray['Omeka-Total-Results'] . " which means " . $howMany . " pages (sets of 50)</p>";
+
+$i = 0;
+foreach($itemArrayDesc as $info){
+  //echo "<div style='margin-bottom:3em;'>";
+
+  $theVar = $info['files']['url'];
+  $json_string2 = $theVar;
+  $jsondata2 = file_get_contents($json_string2);
+  $itemArray2  = json_decode($jsondata2, true);
+    foreach($itemArray2 as $info2){
+      //echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
+    }
+  echo "<li><a href=''>" . $info['element_texts'][0]['text'] . "</a></li>";
+
+  if (++$i == 7) break;
+}
+?>
+		</ul>
+		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
+		</div>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
+		<div class="content-block">
                 (featured exhibit)
+		</div>
               </div>
               <div class="span3" style="min-height:380px; background:#ccc;">
-                <h2>Online Exhibits</h2>
+		<div class="content-block">
+                <h2>ONLINE EXHIBITS</h2>
+		</div>
               </div>
             </div>
 
