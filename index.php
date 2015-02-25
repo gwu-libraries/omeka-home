@@ -105,7 +105,7 @@
 
             <div style="margin-top: 1em;" class="row-fluid">
               <div class="span3" style="min-height:380px; background:#ccc;">
-		<div style="padding: 0 .5em .3em;">
+		<div style="padding: 0 .7em .3em;">
                 <h2>COLLECTIONS</h2>
 		<style>li {font-size:.8em;}</style>
 		  <ul>
@@ -158,13 +158,13 @@ foreach($itemArrayDesc as $info){
     foreach($itemArray2 as $info2){
       //echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
-  echo "<li>" . $info['element_texts'][0]['text'] . " (item id " . $info['id'] . ")</li>";
+  echo "<li><a href=''>" . $info['element_texts'][0]['text'] . "</a></li>";
 
   if (++$i == 7) break;
 }
 ?>
 		</ul>
-		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Collections</a></p>
+		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
 		</div>
               </div>
               <div class="span6" style="min-height:380px; background:#ccc;">
