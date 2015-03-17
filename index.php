@@ -86,14 +86,14 @@
               </div>
             </div>
 
-	    <div style="margin-top:1em;" class="row-fluid">
+	    <div style="margin-top:1em;margin-bottom:-2em;" class="row-fluid">
 	      <div class="span12">
 		<div class="content-block">
 		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
 		</div>
 	      </div>
 	    </div>
-	    <div style="min-height:150px;" class="row-fluid">
+	    <div style="min-height:150px; padding-top:1.8em;background-image:url(intro-text-background.png); background-size:cover;" class="row-fluid">
 	      <div style="font-size:.8em;" class="span5">
 		<div class="content-block">
 	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
@@ -105,7 +105,7 @@
 		</div>
               </div>
               <div class="span2">
-		<p>(empty span2)</p>
+		<!--<p>(empty span2)</p>-->
               </div>
 	    </div>
 
