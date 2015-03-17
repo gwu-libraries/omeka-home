@@ -185,11 +185,13 @@ foreach($itemArrayDesc as $info){
 		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
                 <div>
-                <p style="margin-bottom:.3em; color:#eb8e61;">Hebrew Printing in Ukraine</p>
+                <img src="exhibit-hebrew.png" style="width:100%;" />
+                <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Hebrew Printing in Ukraine</p>
                 <p style="font-size:.8em; padding-left:.5em;">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a href="#">more</a></p>
                 </div>
                 <div>
-                <p style="margin-bottom:.3em; color:#eb8e61;">Presidential Presence</p>
+                <img src="exhibit-president.png" style="width:100%;" />
+                <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Presidential Presence</p>
                 <p style="font-size:.8em; padding-left:.5em;">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
                 </div>
                 <h3 style="margin-top:2em;"><a href="#">SEE ALL ONLINE EXHIBITS</a><h3>
