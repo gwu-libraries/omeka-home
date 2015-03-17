@@ -65,7 +65,7 @@
                   <img src="masthead-slideshow-placeholder.png" style="width:100%;" />
                 </div>
             </div>
-            <div class="row-fluid" style="margin-top:1em; background:#ccc; width:100%;">
+            <div class="row-fluid" style="margin-top:1em; width:100%; color:#dbad41;">
               <div class="span2">
 		ABOUT US	
               </div>
@@ -78,10 +78,10 @@
               <div class="span2">
                 COLLECTIONS
               </div>
-              <div class="span2">
+              <div class="span2" style="text-align:center;">
                 ITEMS
               </div>
-              <div class="span2">
+              <div class="span2" style="text-align:right;">
                 CONTACT US
               </div>
             </div>
