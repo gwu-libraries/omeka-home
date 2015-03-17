@@ -109,8 +109,8 @@
               </div>
 	    </div>
 
-            <div style="margin-top: 1em;" class="row-fluid">
-              <div class="span3" style="min-height:380px; background:#ccc;">
+            <div style="margin-top: 1em; margin-bottom:2em; margin-top:2em;" class="row-fluid">
+              <div class="span3" style="min-height:380px; background:#dfdedd;">
 		<div class="content-block">
                 <h2>COLLECTIONS</h2>
 		<style>li {font-size:.8em;}</style>
@@ -173,12 +173,13 @@ foreach($itemArrayDesc as $info){
 		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
 		</div>
               </div>
-              <div class="span6" style="min-height:380px; background:#ccc;">
-		<div class="content-block">
-                <p>(featured exhibit)</p>
+              <div class="span6" style="min-height:380px;">
+		<img src="featured-placeholder.png" style="width:100%;" />
+                <div class="content-block">
+                <p>(text)</p>
 		</div>
               </div>
-              <div class="span3" style="min-height:380px; background:#ccc;">
+              <div class="span3" style="min-height:380px; background:#dfdedd;">
 		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
 		</div>
