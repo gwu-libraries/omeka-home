@@ -61,8 +61,8 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="margin-top:1em; background:#ccc; height:200px; width:100%;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
-                    <h2>(this is the container for the image slideshow)</h2>
+                <div class="span12" style="margin-top:1em;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                  <img src="masthead-slideshow-placeholder.png" style="width:100%;" />
                 </div>
             </div>
             <div class="row-fluid" style="margin-top:1em; background:#ccc; width:100%;">
