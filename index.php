@@ -88,7 +88,7 @@
 
 	    <div style="margin-top:1em;margin-bottom:-2em;" class="row-fluid">
 	      <div class="span12">
-		<div class="content-block">
+		<div class="content-block" style="padding-left:0;">
 		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
 		</div>
 	      </div>
