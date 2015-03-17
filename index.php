@@ -174,9 +174,11 @@ foreach($itemArrayDesc as $info){
 		</div>
               </div>
               <div class="span6" style="min-height:380px;">
-		<img src="featured-placeholder.png" style="width:100%;" />
+		<img src="featured-placeholder.png" style="width:100%; margin-bottom:1em;" />
                 <div class="content-block">
-                <p>(text)</p>
+                <h2>Hear in DC: The DC Vernacular Music Archive</h2>
+                <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
+                <h3 style="margin-top:2em;"><a href="#">CURRENTLY INSTALLED EXHIBITS</a><h3>
 		</div>
               </div>
               <div class="span3" style="min-height:380px; background:#dfdedd;">
