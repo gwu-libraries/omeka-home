@@ -2,7 +2,36 @@
 
 body {background:#ececeb;}
 
+.nav-items {}
+
+.nav-items-items {
+  text-align:center;
+}
+.nav-items-contact {
+  text-align:right;
+}
+
 .content-block {padding: 0 .5em .3em;}
 
-.overview-left-text {}
-.overview-right-text {}
+.overview-left-text {
+  padding: 0 1em;
+}
+.overview-right-text {
+  padding-right: 3em;
+}
+
+@media screen and (max-width:767px) {
+  .nav-items-items {
+    text-align:left;
+  }
+  .nav-items-contact {
+    text-align:left;
+  }
+
+  .overview-left-text {
+    padding: 0;
+  }  
+  .overview-right-text {
+    padding: 0;
+  }
+}

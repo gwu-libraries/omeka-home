@@ -78,10 +78,10 @@
               <div class="span2">
                 COLLECTIONS
               </div>
-              <div class="span2" style="text-align:center;">
+              <div class="span2 nav-items nav-items-items">
                 ITEMS
               </div>
-              <div class="span2" style="text-align:right;">
+              <div class="span2 nav-items nav-items-contact">
                 CONTACT US
               </div>
             </div>
@@ -93,7 +93,7 @@
 		</div>
 	      </div>
 	    </div>
-	    <div style="min-height:150px; padding-top:1.8em;background-image:url(intro-text-background.png); background-size:cover;" class="row-fluid">
+	    <div style="min-height:110px; padding-top:1.8em;background-image:url(intro-text-background.png); background-size:cover;" class="row-fluid">
 	      <div style="font-size:.8em;" class="span5">
 		<div class="content-block">
 	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
