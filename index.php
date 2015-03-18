@@ -133,7 +133,7 @@ foreach($itemArrayDesc as $info){
 }
 ?>
 		</ul>
-		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
+		<p style="margin-top:1.6em; margin-left:25px; font-size:.9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
 		<h2>RECENT ITEMS</h2>
 		<ul>
 <?php
@@ -170,7 +170,7 @@ foreach($itemArrayDesc as $info){
 }
 ?>
 		</ul>
-		<p style="margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
+		<p style="margin-top:1.6em; margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
 		</div>
               </div>
               <div class="span6" style="min-height:380px;">
