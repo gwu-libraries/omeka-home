@@ -11,8 +11,17 @@ a:visited {}
 a:hover: {}
 a:active: {}
 
+li.first a:link {color:#eb8e61;}
+li a:link {color:#333;}
+
 ul {
   list-style-type: square;
+}
+
+ul li {
+  padding-top:.4em;
+  padding-bottom:.4em;
+  border-bottom:1px dotted #dbad41;
 }
 
 .nav-items {}

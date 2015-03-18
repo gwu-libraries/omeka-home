@@ -114,7 +114,7 @@
 		<div class="content-block">
                 <h2>COLLECTIONS</h2>
 		<style>li {font-size:.8em;}</style>
-		  <ul>
+		  <ul id="collection-list">
 <?php
 // collections
 
@@ -132,10 +132,13 @@ foreach($itemArrayDesc as $info){
   if (++$j == 30) break;
 }
 ?>
+<script>
+$('#collection-list > :first-child').addClass("first");
+</script>
 		</ul>
 		<p style="margin-top:1.6em; margin-left:25px; font-size:.9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
 		<h2>RECENT ITEMS</h2>
-		<ul>
+		<ul id="items-list">
 <?php
 // items
 
@@ -170,6 +173,11 @@ foreach($itemArrayDesc as $info){
 }
 ?>
 		</ul>
+
+<script>
+$('#items-list > :first-child').addClass("first");
+</script>
+
 		<p style="margin-top:1.6em; margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
 		</div>
               </div>
