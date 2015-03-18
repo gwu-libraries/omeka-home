@@ -1,6 +1,19 @@
 /* custom styles for omeka-home */
 
-body {background:#ececeb;}
+body {
+  background:#ececeb;
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+}
+
+a:link {color: #333;}
+a:visited {}
+a:hover: {color:#eb8e61;}
+a:active: {}
+
+ul {
+  list-style-type: square;
+}
 
 .nav-items {}
 
