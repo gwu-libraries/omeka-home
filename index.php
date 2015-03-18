@@ -110,7 +110,7 @@
 	    </div>
 
             <div style="margin-top: 1em; margin-bottom:2em; margin-top:2em;" class="row-fluid">
-              <div class="span3" style="min-height:380px; background:#dfdedd;">
+              <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
 		<div class="content-block">
                 <h2>COLLECTIONS</h2>
 		<style>li {font-size:.8em;}</style>
@@ -173,7 +173,7 @@ foreach($itemArrayDesc as $info){
 		<p style="margin-top:1.6em; margin-left:25px; font-size: .9em;"><a href="http://exhibits.library.gwu.edu/items/browse">Browse Items</a></p>
 		</div>
               </div>
-              <div class="span6" style="min-height:380px;">
+              <div class="span6 showcase-column" style="min-height:380px;">
 		<img src="featured-placeholder.png" style="width:100%; margin-bottom:1em;" />
                 <div class="content-block">
                 <h2>Hear in DC: The DC Vernacular Music Archive</h2>
@@ -181,7 +181,7 @@ foreach($itemArrayDesc as $info){
                 <h3 style="margin-top:2em;"><a href="#">CURRENTLY INSTALLED EXHIBITS</a><h3>
 		</div>
               </div>
-              <div class="span3" style="min-height:380px; background:#dfdedd;">
+              <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
 		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
                 <div>
