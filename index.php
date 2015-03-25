@@ -32,30 +32,11 @@
 
     </head> 
     <body>
-        <header class="navbar-fixed-top"><!-- this is the Libsite7 Lite Header -->
-            <div id="libheader-container">
-                <div id="libheader" class="container">
-                    <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="http://library.gwu.edu/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
-                    <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">Omeka Custom Home</a></div>
-
-                    <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
-                    <div class="libheader-link"><a href="#" target="_blank" title="">(this blue banner with be replaced by the "exhibits" banner)</a></div>
-                    <!-- end optional links -->
-
-                    <!-- optional bootstrap user icons, example placement -->
-                    <!--<div class="libheader-icon">
-                        <i class='icon-off icon-white'></i>&nbsp;<a href="/logout/">logout</a>
-                    </div>
-                    <div class="libheader-icon">
-                        <i class='icon-cog icon-white'></i>&nbsp;<a href="/change_password/">settings</a>
-                    </div>
-                    <div class="libheader-icon">
-                        <i class='icon-user icon-white'></i>&nbsp;guest
-                    </div>-->
-                    <!-- end optional bootstrap user icons -->
-                </div>
-            </div>
-        </header><!-- end Libsite7 Lite Header -->
+      <header>
+	<div style="margin:0 auto; width:100%; max-width:1300px;">
+	  <img style="width:100%;" src="header-image.png" />
+        </div>
+      </header><!-- end portal header -->
         
         <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
         <article class="libsite-container container">
