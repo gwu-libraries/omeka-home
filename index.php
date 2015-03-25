@@ -33,8 +33,10 @@
     </head> 
     <body>
       <header style="margin-bottom:0; padding-bottom:0;">
-	<div id="header-container" style="margin:0 auto; width:100%; max-width:1300px;">
+	<div id="header-container">
+        <div id="header-contents" style="margin:0 auto; width:100%; max-width:1300px;">
 	  <img style="width:100%;" src="header-image.png" />
+        </div>
         </div>
       </header><!-- end portal header -->
         
@@ -306,7 +308,9 @@ foreach ($arr as &$value) {
         <!-- end page content -->
        
         <footer> 
-          <div style="margin:0 auto; background:#191919; max-width:1300px; height:200px;">
+          <div id="footer-container">
+          <div id="footer-content" style="margin:0 auto; background:#191919; max-width:1300px; height:200px;">
+          </div>
           </div>
         </footer><!-- end portal footer -->
         
