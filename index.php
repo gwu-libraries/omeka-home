@@ -33,7 +33,7 @@
     </head> 
     <body>
       <header style="margin-bottom:0; padding-bottom:0;">
-	<div style="margin:0 auto; width:100%; max-width:1300px;">
+	<div id="header-container" style="margin:0 auto; width:100%; max-width:1300px;">
 	  <img style="width:100%;" src="header-image.png" />
         </div>
       </header><!-- end portal header -->
@@ -304,21 +304,11 @@ foreach ($arr as &$value) {
             
         </article> <!-- /container -->
         <!-- end page content -->
-        
-        <footer class="navbar-fixed-bottom"><!-- the Libsite7 Lite Footer -->
-            <div id="libfooter-container">
-                <div id="libfooter" class="container">
-                    <div class="libfooter-text">
-                        <div id="footer-contact">
-                            <span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:gelman@gwu.edu" target="_blank" title="">gelman@gwu.edu</a>
-                        </div>
-                        <div id="footer-utility">
-                            <span><a href="#">(this blue footer will be the darker taller Exhibits footer)</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- end Libsite7 Lite Footer -->
+       
+        <footer> 
+          <div style="margin:0 auto; background:#191919; max-width:1300px; height:200px;">
+          </div>
+        </footer><!-- end portal footer -->
         
         <!-- javascript placed at the end of the document so the pages load faster -->
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important -->
