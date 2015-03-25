@@ -309,7 +309,49 @@ foreach ($arr as &$value) {
        
         <footer> 
           <div id="footer-container">
-          <div id="footer-content" style="margin:0 auto; background:#191919; max-width:1300px; height:200px;">
+          <div id="footer-content" style="margin:0 auto; background:#191919; max-width:1170px; height:200px;">
+
+        <section class="pane clear" id="local-footer"> 
+
+	<div class="footer-lib-logo">
+		<h2>GW Libraries</h2>
+	</div>
+	
+	<article class="address">
+		<p class="address">
+		<span class="address">2130 H Street, NW</span><br />
+		<span class="city">Washington, DC 20052</span><br />
+		<span class="phone"><span class="tel">(202) 994-6558</span></span> | <span class="email"><a href="mailto:gelman@gwu.edu">gelman@gwu.edu</a></span></p>
+	</article>
+	<div class="right" id="local-footer-links">
+		<article>
+		<div class="local-links">
+			<a href="http://library.gwu.edu/hours">Hours</a> | <a href="http://library.gwu.edu/contact">Contact Us</a> | <a href="http://www.gwu.edu/explore/visitingcampus/">Maps &amp; Directions</a> | <a href="http://go.gwu.edu/gwlibraries">Give to GW Libraries</a> | <a href="/admin">Exhibit Admin Login</a></div>
+		</article> 
+		<article>
+		<div class="social-links">
+			<ul>
+				<li>
+					<a href="http://www.facebook.com/gelmanlibrary"><i class="fa fa-facebook-square"></i>&nbsp;Gelman Library<span class="sr-only">follow Gelman Library on Facebook</span></a>
+				</li>
+				<li>
+					<a href="http://twitter.com/gelmanlibrary"><i class="fa fa-twitter"></i>&nbsp;@GelmanLibrary<span class="sr-only">follow Gelman Library on Twitter</span></a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/gelmanlibrary/"><i class="fa fa-pinterest"></i>&nbsp;Gelman Library<span class="sr-only">follow Gelman Library on Pinterest</span></a>
+				</li>
+			</ul>
+		</div>
+		</article>
+	</div>
+	</section> 
+	<!-- end Libraries Footer -->	
+
+
+
+
+
+
           </div>
           </div>
         </footer><!-- end portal footer -->
