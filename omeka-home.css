@@ -7,6 +7,7 @@ body {
 }
 
 header {}
+footer {}
 
 a:link {color:#eb8e61;}
 a:visited {}
@@ -49,7 +50,7 @@ ul li {
 /* overriding libheader-lite since we're not using its header */
 .libsite-container {margin-top: 1em;}
 
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1200px) {
   header {
     background:#191919;
     width:100%;

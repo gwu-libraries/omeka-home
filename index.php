@@ -280,12 +280,12 @@ $jsondata = file_get_contents($json_string);
 $itemArray  = json_decode($jsondata, true); // decode JSON to associative array
 $itemArrayDesc = array_reverse($itemArray);
 
-echo "<h2 style='margin-top:2em;'>Collections</h2>";
+//echo "<h2 style='margin-top:2em;'>Collections</h2>";
 $j = 0;
 foreach($itemArrayDesc as $info){
   //echo "<div>";
 
-  echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</p>";
+  //echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</p>";
 
   if (++$j == 30) break;
 }
