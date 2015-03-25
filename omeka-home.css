@@ -44,6 +44,9 @@ ul li {
 
 .showcase-column {}
 
+/* overriding libheader-lite since we're not using its header */
+.libsite-container {margin-top: 1em;}
+
 @media screen and (max-width:767px) {
   .nav-items-items {
     text-align:left;

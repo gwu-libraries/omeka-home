@@ -32,7 +32,7 @@
 
     </head> 
     <body>
-      <header>
+      <header style="margin-bottom:0; padding-bottom:0;">
 	<div style="margin:0 auto; width:100%; max-width:1300px;">
 	  <img style="width:100%;" src="header-image.png" />
         </div>
