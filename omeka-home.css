@@ -14,8 +14,8 @@ a:visited {}
 a:hover: {}
 a:active: {}
 
-li.first a:link {color:#eb8e61;}
-li a:link {color:#333;}
+.content-block li.first a:link {color:#eb8e61;}
+.content-block li a:link {color:#333;}
 
 ul {
   list-style-type: square;
@@ -36,8 +36,28 @@ ul {
   text-align:right;
 }
 
+/* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
 /* footer */
 #local-footer {
+}
+
+#footer-content {
+  margin:0 auto; 
+  background:#191919; 
+  max-width:1170px; 
+  padding-top:1em; 
+  padding-bottom:1em;
 }
 
 #local-footer h2 {

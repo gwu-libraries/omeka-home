@@ -309,7 +309,7 @@ foreach ($arr as &$value) {
        
         <footer> 
           <div id="footer-container">
-          <div id="footer-content" style="margin:0 auto; background:#191919; max-width:1170px; height:200px;">
+          <div id="footer-content">
 
         <section class="pane clear" id="local-footer"> 
 
