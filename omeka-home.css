@@ -21,7 +21,7 @@ ul {
   list-style-type: square;
 }
 
-ul li {
+.content-block ul li {
   padding-top:.4em;
   padding-bottom:.4em;
   border-bottom:1px dotted #dbad41;
@@ -90,9 +90,9 @@ ul li {
 }
 
 #local-footer {
-    width: 960px;
+    width: 1170px;
     position: relative;
-  }
+}
   
 #local-footer .right {
   	position: absolute;
