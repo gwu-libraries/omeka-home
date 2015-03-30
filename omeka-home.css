@@ -36,6 +36,80 @@ ul li {
   text-align:right;
 }
 
+/* footer */
+#local-footer {
+}
+
+#local-footer h2 {
+	margin-bottom: 0.5em;
+}
+
+#local-footer article.address {
+	width: 40%;
+}
+
+#local-footer article.address p {
+	line-height: 16px;
+	color: #333; /* #555; */
+	margin: 0;
+}
+
+#local-footer .right {
+	margin-top: 0; /*2em;*/
+	float: right;
+}
+
+#local-footer .local-links {
+	text-align: right;
+}
+
+#local-footer .social-links {
+	border-top: 1px dotted #ccc;
+	margin-top: 6px;
+	padding-top: 6px;
+	text-align: right;
+}
+ 
+#local-footer .social-links ul {
+	list-style: none inside;
+	padding: 0;
+	margin: 0;
+}
+
+#local-footer .social-links ul li {
+	display: inline;
+}
+
+#local-footer .social-links ul li img {
+	padding-left: 1.0em;
+}
+
+#local-footer .social-links a:hover {
+	text-decoration: none;
+	color: #03314b;
+}
+
+#local-footer {
+    width: 960px;
+    position: relative;
+  }
+  
+#local-footer .right {
+  	position: absolute;
+	right: 0;
+	bottom: 0;
+  }
+  
+#local-footer .footer-lib-logo {
+  	margin-bottom: 0; /*1.0em;*/
+  }
+  
+#local-footer h2,
+#local-footer h3 {
+ 	margin: 0;
+  }
+/* end footer */
+
 .content-block {padding: 0 .5em .3em;}
 
 .overview-left-text {
@@ -62,7 +136,6 @@ ul li {
     height:200px;
   }
 }
-
 
 @media screen and (max-width:767px) {
   #header-container, #footer-container {
