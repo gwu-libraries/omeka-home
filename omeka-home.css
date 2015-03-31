@@ -70,12 +70,12 @@ ul {
 
 #local-footer article.address p {
 	line-height: 16px;
-	color: #333; /* #555; */
+	color: #fff;
 	margin: 0;
 }
 
 #local-footer .right {
-	margin-top: 0; /*2em;*/
+	margin-top: 0; 
 	float: right;
 }
 
@@ -124,10 +124,10 @@ ul {
   	margin-bottom: 0; /*1.0em;*/
   }
   
-#local-footer h2,
-#local-footer h3 {
- 	margin: 0;
-  }
+#local-footer h2, #local-footer h3 {
+  margin: 0;
+  color: #fff;
+}
 /* end footer */
 
 .content-block {padding: 0 .5em .3em;}
