@@ -326,7 +326,7 @@ foreach ($arr as &$value) {
 	<div class="right" id="local-footer-links">
 		<article>
 		<div class="local-links">
-			<a href="http://library.gwu.edu/hours">Hours</a> | <a href="http://library.gwu.edu/contact">Contact Us</a> | <a href="http://www.gwu.edu/explore/visitingcampus/">Maps &amp; Directions</a> | <a href="http://go.gwu.edu/gwlibraries">Give to GW Libraries</a> | <a href="/admin">Exhibit Admin Login</a></div>
+			<a href="http://library.gwu.edu/hours">Hours</a> | <a href="http://library.gwu.edu/contact">Contact Us</a> | <a href="http://www.gwu.edu/explore/visitingcampus/">Maps &amp; Directions</a> | <a href="http://go.gwu.edu/gwlibraries">Give to GW Libraries</a> | <a href="/admin">Admin Login</a></div>
 		</article> 
 		<article>
 		<div class="social-links">
