@@ -61,13 +61,14 @@ ul {
 }
 
 #logo-container {
+  display:block;
   float:left; 
   width:260px;
   margin-right: 2em;
 }
 
 #local-footer h2 {
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #local-footer article.address {
@@ -165,11 +166,26 @@ ul {
 }
 
 @media screen and (max-width:1220px) {
+  #local-footer {
+    width: 100%;
+  }
+  #footer-container {
+    width: 100%;
+  }
   #footer-content {
     margin:0;
-    width:100%;
+    /*width:100%;*/
     padding-left:1em;
     padding-right:1em;
+  }
+  #logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width:860px) {
+  #give-to {
+    display: none;
   }
 }
 
@@ -196,5 +212,8 @@ ul {
   .showcase-column {
     padding-top:.5em;
     margin-top:1em;
+  }
+  #local-footer-links {
+    display: none;
   }
 }
