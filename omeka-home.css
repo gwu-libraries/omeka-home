@@ -72,10 +72,11 @@ ul {
 
 #local-footer article.address {
 	/*width: 40%;*/
+  display: inline;
 }
 
 #local-footer article.address p {
-  line-height: 16px;
+  /*line-height: 16px;*/
   color: #fff;
   margin: 0;
   font-size: .9em;
@@ -160,6 +161,15 @@ ul {
   footer {
     background:#191919;
     width:100%;
+  }
+}
+
+@media screen and (max-width:1220px) {
+  #footer-content {
+    margin:0;
+    width:100%;
+    padding-left:1em;
+    padding-right:1em;
   }
 }
 
