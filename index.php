@@ -21,7 +21,7 @@
         <!-- js (some js links are at the bottom of the page) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- basic slider basic-slider.com -->
-        <script src="bjqs.min.js"></script>
+        <script src="js/bjqs-1.3.min.js"></script>
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
         <!--[if lt IE 9]>
@@ -47,15 +47,14 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="margin-top:1em;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
+                <div class="span12" style="margin-top:1em;"> 
 
-<div id="my-slideshow">
-	<ul class="bjqs">
-		<li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
-		<li>test text for slide 2</li>
-	</ul>
-</div
-                  <!--<img src="masthead-slideshow-placeholder.png" style="width:100%;" />-->
+                  <div id="my-slideshow">
+	            <ul class="bjqs">
+		      <li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
+		      <li><h3>test text for slide 2<h3></li>
+	            </ul>
+                  </div
 
 
                 </div>
@@ -70,6 +69,7 @@ jQuery(document).ready(function($) {
 	});
 });
 </script>
+
             <div class="row-fluid" style="margin-top:1em; width:100%; color:#dbad41;">
               <div class="span2">
 		ABOUT US	
