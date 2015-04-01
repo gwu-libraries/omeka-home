@@ -14,8 +14,8 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
-        <link rel="stylesheet" href="bjqs.css" />
         <link href="omeka-home.css" rel="stylesheet" />
+        <link href="bjqs.css" rel="stylesheet" />
 	<!-- print styles are included in base libheader7_lite.css --> 
   
         <!-- js (some js links are at the bottom of the page) -->
@@ -51,7 +51,7 @@
 
 	            <ul class="bjqs">
 		      <li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
-		      <li><h3>test text for slide 2<h3></li>
+		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" /></li>
 	            </ul>
 
 
