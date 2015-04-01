@@ -60,12 +60,18 @@ ul {
   padding-bottom:2em;
 }
 
+#logo-container {
+  float:left; 
+  width:260px;
+  margin-right: 2em;
+}
+
 #local-footer h2 {
 	margin-bottom: 0.5em;
 }
 
 #local-footer article.address {
-	width: 40%;
+	/*width: 40%;*/
 }
 
 #local-footer article.address p {

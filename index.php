@@ -313,6 +313,10 @@ foreach ($arr as &$value) {
 
         <section class="pane clear" id="local-footer"> 
 
+        <div id="logo-container">
+          <img style="width:100%;" src="gw_iddol_libraries_wht_rev.png">
+        </div>
+
 	<div class="footer-lib-logo">
 		<h2>GW Libraries</h2>
 	</div>
