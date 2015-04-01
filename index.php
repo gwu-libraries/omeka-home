@@ -48,9 +48,28 @@
         
             <div class="row-fluid">
                 <div class="span12" style="margin-top:1em;"> <!-- this is a 'content' column that spans all 12 of the columns wihtin this content area -->
-                  <img src="masthead-slideshow-placeholder.png" style="width:100%;" />
+
+<div id="my-slideshow">
+	<ul class="bjqs">
+		<li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
+		<li>test text for slide 2</li>
+	</ul>
+</div
+                  <!--<img src="masthead-slideshow-placeholder.png" style="width:100%;" />-->
+
+
                 </div>
             </div>
+
+<script>
+jQuery(document).ready(function($) {
+	$('#banner-fade').bjqs({
+		'height' : 320,
+		'width' : 620,
+		'responsive' : true
+	});
+});
+</script>
             <div class="row-fluid" style="margin-top:1em; width:100%; color:#dbad41;">
               <div class="span2">
 		ABOUT US	
