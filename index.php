@@ -47,14 +47,12 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="margin-top:1em;"> 
+                <div class="span12" style="margin-top:1em;" id="slider"> 
 
-                  <div id="my-slideshow">
 	            <ul class="bjqs">
 		      <li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
 		      <li><h3>test text for slide 2<h3></li>
 	            </ul>
-                  </div
 
 
                 </div>
@@ -62,7 +60,7 @@
 
 <script>
 jQuery(document).ready(function($) {
-	$('#banner-fade').bjqs({
+	$('#slider').bjqs({
 		'height' : 320,
 		'width' : 620,
 		'responsive' : true
