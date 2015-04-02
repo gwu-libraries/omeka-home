@@ -12,6 +12,7 @@ ol.bjqs-markers li{display:inline;}
 ol.bjqs-markers li a{display:inline-block;}
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
 
+/* these mods are from dev's own tweaks on basic-slider.com */
 ul.bjqs-controls.v-centered li a{
 	display:block;
 	padding:10px;

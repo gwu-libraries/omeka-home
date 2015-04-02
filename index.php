@@ -20,7 +20,7 @@
   
         <!-- js (some js links are at the bottom of the page) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <!-- basic slider basic-slider.com -->
+        <!-- basic slider github.com/jcobb/basic-jquery-slider/ and some of his/her own custom css on basic-slider.com -->
         <script src="js/bjqs-1.3.min.js"></script>
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
