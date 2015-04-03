@@ -85,6 +85,8 @@ ul {
 }
 
 /* expand/collapse nav */
+.handheld-nav-toggle {display: none;}
+.content-1 {}
 .showit {display:inline; color:#2971a7;}
 .hideit {display:none; color:#2971a7;}
 
@@ -281,6 +283,9 @@ ul {
 li.bjqs-next, li.bjqs-prev {
   display: none;
 }
+
+.handheld-nav-toggle {display: block;}
+.content-1 {display: none;}
 
   .nav-items-items {
     text-align:left;

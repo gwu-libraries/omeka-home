@@ -33,7 +33,7 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function() {
-  jQuery(".content-1").hide();
+  //jQuery(".content-1").hide();
   //toggle the component with class msg_body
   jQuery(".expand-1").click(function()
   {
@@ -71,9 +71,9 @@ jQuery(document).ready(function() {
                 <div class="span12" id="slider-row"> 
                   <div style="margin:0 auto;" id="slider">
 	            <ul class="bjqs">
-		      <li><img src="masthead-slideshow-placeholder.png" title="The PNC-RIGGS Collection" style="width:100%;" /></li>
-		      <li><img src="masthead-slideshow-placeholder-2.png" title="The Test Collection" style="width:100%;" /></li>
-                      <li><img src="masthead-slideshow-placeholder-3.png" title="The Monument Collection" style="width:100%;" /></li>
+		      <li><img src="masthead-slideshow-placeholder.png" alt="The PNC-RIGGS Collection" title="The PNC-RIGGS Collection" style="width:100%;" /></li>
+		      <li><img src="masthead-slideshow-placeholder-2.png" alt="alt tag here" title="The Test Collection" style="width:100%;" /></li>
+                      <li><img src="masthead-slideshow-placeholder-3.png" alt="alt tag here" title="The Monument Collection" style="width:100%;" /></li>
 	            </ul>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-<p style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
+<p class="handheld-nav-toggle" style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
             <div class="row-fluid content-1" style="margin-top:1em; width:100%; color:#dbad41;">
               <div class="span2">
