@@ -31,16 +31,13 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-<style type="text/css">.showit {display:inline; color:#2971a7; padding-left:.5em;}
-.hideit {display:none; color:#2971a7; padding-left:.5em;}
-</style>
 <script type="text/javascript">
 jQuery(document).ready(function() {
   jQuery(".content-1").hide();
   //toggle the component with class msg_body
   jQuery(".expand-1").click(function()
   {
-    jQuery(".content-1").slideToggle(500);
+    jQuery(".content-1").slideToggle(300);
       if($('#plus1').hasClass('showit')) {
         $("#plus1").attr("class", "hideit");
         $("#minus1").attr("class", "showit");
@@ -94,7 +91,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-<p style="margin-top:1em; font-size:1.25em;"><strong><a href="#Purpose of Policy">MENU</a></strong> <span class="showit expand-1" id="plus1" style="color: #eb8e61;"><i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color: #eb8e61;"><i class="fa fa-minus-square-o"></i></span></p>
+<p style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
             <div class="row-fluid content-1" style="margin-top:1em; width:100%; color:#dbad41;">
               <div class="span2">

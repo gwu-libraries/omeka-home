@@ -84,6 +84,10 @@ ul {
   text-align:right;
 }
 
+/* expand/collapse nav */
+.showit {display:inline; color:#2971a7;}
+.hideit {display:none; color:#2971a7;}
+
 /* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
 .sr-only {
     position: absolute;
