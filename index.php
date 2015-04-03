@@ -334,7 +334,7 @@ foreach ($arr as &$value) {
         <section class="pane clear" id="local-footer"> 
 
         <div id="logo-container">
-          <img style="width:100%;" src="gw_iddol_libraries_wht_rev.png">
+          <img style="" src="gw_iddol_libraries_wht_rev_resized.png">
         </div>
 
 	<div class="footer-lib-logo">
