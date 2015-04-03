@@ -47,14 +47,13 @@
         <article class="libsite-container container">
         
             <div class="row-fluid">
-                <div class="span12" style="margin-top:1em;" id="slider"> 
-
+                <div class="span12" style="margin-top:1em;" id="slider-row"> 
+                  <div style="margin:0 auto;" id="slider">
 	            <ul class="bjqs">
-		      <li><img src="masthead-slideshow-placeholder.png" style="width:100%;" /></li>
-		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" /></li>
+		      <li><img src="masthead-slideshow-placeholder.png" title="PNC Collection" style="width:100%;" /></li>
+		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" title="test image" style="width:100%;" /></li>
 	            </ul>
-
-
+                  </div>
                 </div>
             </div>
 
@@ -62,7 +61,7 @@
 jQuery(document).ready(function($) {
 	$('#slider').bjqs({
 		'height' : 320,
-		'width' : 620,
+		'width' : 1200,
 		'responsive' : true
 	});
 });

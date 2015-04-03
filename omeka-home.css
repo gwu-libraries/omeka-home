@@ -7,6 +7,21 @@ body {
 }
 
 header {}
+
+/* slider customization */
+ol.bjqs-markers.h-centered {
+  position: absolute;
+  bottom: 1em;
+}
+
+p.bjqs-caption {
+  bottom: initial;
+  top: 0;
+  font-size:3em;
+  color:#fff;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 footer {}
 
 a:link {color:#eb8e61;}
