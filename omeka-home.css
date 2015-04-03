@@ -8,7 +8,11 @@ body {
 
 header {}
 
-/* slider customization */
+#slider-row {
+  margin-top: 1em;
+}
+
+/* slider customization (modified basic-slider styling) */
 ol.bjqs-markers.h-centered {
   position: absolute;
   bottom: 1em;
@@ -251,20 +255,28 @@ ul {
 
 @media screen and (max-width:767px) {
   #header-container, #footer-container {
-    margin-left:-20px;
-    width:110%;
+    /*margin-left:-20px;*/
+    width:100%;
   }
 
+#slider-row {
+  margin-top: 0;
+}
+
   p.bjqs-caption {
-    font-size: 1.4em;
+    font-size: 1.2em;
     height:18px;
   }
   ul.bjqs-controls.v-centered li a {
     padding: 2px;
   }
   ol.bjqs-markers.h-centered {
-    bottom: .1em;
+   bottom: .1em;
   }
+
+li.bjqs-next, li.bjqs-prev {
+  display: none;
+}
 
   .nav-items-items {
     text-align:left;
