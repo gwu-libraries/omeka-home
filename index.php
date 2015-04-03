@@ -14,8 +14,10 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
-        <link href="omeka-home.css" rel="stylesheet" />
+        <!-- basic-slider css -->
         <link href="bjqs.css" rel="stylesheet" />
+        <!-- omeka-home custom css -->
+        <link href="omeka-home.css" rel="stylesheet" />
 	<!-- print styles are included in base libheader7_lite.css --> 
   
         <!-- js (some js links are at the bottom of the page) -->
@@ -50,8 +52,8 @@
                 <div class="span12" style="margin-top:1em;" id="slider-row"> 
                   <div style="margin:0 auto;" id="slider">
 	            <ul class="bjqs">
-		      <li><img src="masthead-slideshow-placeholder.png" title="PNC Collection" style="width:100%;" /></li>
-		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" title="test image" style="width:100%;" /></li>
+		      <li><img src="masthead-slideshow-placeholder.png" title="THE PNC-RIGGS COLLECTION" style="width:100%;" /></li>
+		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" title="THE TEST COLLECTION" style="width:100%;" /></li>
 	            </ul>
                   </div>
                 </div>

@@ -17,9 +17,12 @@ ol.bjqs-markers.h-centered {
 p.bjqs-caption {
   bottom: initial;
   top: 0;
+  height:30px;
+  padding-top:1%;
   font-size:3em;
   color:#fff;
   background-color:rgba(0, 0, 0, 0.5);
+  /*background-color:rgba(255,255,255,0.6);*/
 }
 
 footer {}
@@ -168,6 +171,9 @@ ul {
 /* overriding libheader-lite since we're not using its header */
 .libsite-container {margin-top: 1em;}
 
+
+/* MEDIA QUERIES */
+
 @media screen and (min-width:1200px) {
   header {
     background:#191919;
@@ -205,12 +211,21 @@ ul {
   #give-to {
     display: none;
   }
+  p.bjqs-caption {
+    font-size: 2em;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width:767px) {
   #header-container, #footer-container {
     margin-left:-20px;
     width:110%;
+  }
+
+  p.bjqs-caption {
+    font-size: 1.4em;
+    height:18px;
   }
 
   .nav-items-items {
