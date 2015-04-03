@@ -52,8 +52,9 @@
                 <div class="span12" style="margin-top:1em;" id="slider-row"> 
                   <div style="margin:0 auto;" id="slider">
 	            <ul class="bjqs">
-		      <li><img src="masthead-slideshow-placeholder.png" title="THE PNC-RIGGS COLLECTION" style="width:100%;" /></li>
-		      <li><img src="http://www.basic-slider.com/img/banner02.jpg" title="THE TEST COLLECTION" style="width:100%;" /></li>
+		      <li><img src="masthead-slideshow-placeholder.png" title="The PNC-RIGGS Collection" style="width:100%;" /></li>
+		      <li><img src="masthead-slideshow-placeholder-2.png" title="The Test Collection" style="width:100%;" /></li>
+                      <li><img src="masthead-slideshow-placeholder-3.png" title="The Monument Collection" style="width:100%;" /></li>
 	            </ul>
                   </div>
                 </div>
@@ -64,7 +65,9 @@ jQuery(document).ready(function($) {
 	$('#slider').bjqs({
 		'height' : 320,
 		'width' : 1200,
-		'responsive' : true
+		'responsive' : true,
+                'nexttext' : '<i class="fa fa-angle-right fa-2x"></i>', 
+                'prevtext' : '<i class="fa fa-angle-left fa-2x"></i>' 
 	});
 });
 </script>
