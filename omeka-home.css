@@ -26,7 +26,6 @@ p.bjqs-caption {
   font-size:3em;
   color:#fff;
   background-color:rgba(0, 0, 0, 0.5);
-  /*background-color:rgba(255,255,255,0.6);*/
 }
 
 ul.bjqs-controls.v-centered li a {
@@ -99,14 +98,14 @@ ul {
 
 /* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 #three-col-showcase {
@@ -116,8 +115,8 @@ ul {
 }
 
 /* footer */
-#local-footer {
-}
+footer {}
+#local-footer {}
 
 #footer-content {
   margin:0 auto; 
@@ -139,12 +138,10 @@ ul {
 }
 
 #local-footer article.address {
-	/*width: 40%;*/
   display: inline;
 }
 
 #local-footer article.address p {
-  /*line-height: 16px;*/
   color: #fff;
   margin: 0;
   font-size: .8em;
@@ -187,19 +184,19 @@ ul {
 }
 
 #local-footer {
-    width: 1170px;
-    position: relative;
+  width: 1170px;
+  position: relative;
 }
   
 #local-footer .right {
-  	position: absolute;
+  position: absolute;
 	right: 0;
 	bottom: 0;
   }
   
 #local-footer .footer-lib-logo {
-  	margin-bottom: 0; /*1.0em;*/
-  }
+  margin-bottom: 0; 
+}
   
 #local-footer h2, #local-footer h3 {
   margin: 0;
@@ -245,7 +242,6 @@ ul {
   }
   #footer-content {
     margin:0;
-    /*width:100%;*/
     padding-left:1em;
     padding-right:1em;
   }
@@ -275,13 +271,12 @@ ul {
 
 @media screen and (max-width:767px) {
   #header-container, #footer-container {
-    /*margin-left:-20px;*/
     width:100%;
   }
 
-#slider-row {
-  margin-top: 0;
-}
+  #slider-row {
+    margin-top: 0;
+  }
 
   p.bjqs-caption {
     font-size: 1.2em;
@@ -294,12 +289,12 @@ ul {
    bottom: .1em;
   }
 
-li.bjqs-next, li.bjqs-prev {
+  li.bjqs-next, li.bjqs-prev {
   display: none;
-}
+  }
 
-.handheld-nav-toggle {display: block;}
-.content-1 {display: none;}
+  .handheld-nav-toggle {display: block;}
+  .content-1 {display: none;}
 
   .nav-items-items {
     text-align:left;
@@ -329,3 +324,4 @@ li.bjqs-next, li.bjqs-prev {
     display: none;
   }
 }
+
