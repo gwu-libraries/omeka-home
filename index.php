@@ -93,21 +93,21 @@ jQuery(document).ready(function($) {
 
 <p class="handheld-nav-toggle" style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
-            <div class="row-fluid content-1" style="margin-top:1em; width:100%; color:#dbad41;">
+            <div class="row-fluid nav-items content-1" style="margin-top:1em; width:100%;">
               <div class="span2">
-		ABOUT US	
+		<a href="http://exhibits.library.gwu.edu/about" title="more information about GW Libraries Exhibits">ABOUT US</a>	
               </div>
               <div class="span2">
-                EXHIBITS
+                <a href="https://library.gwu.edu/collections/exhibits" title="see our online Exhibits">EXHIBITS</a>
               </div>
               <div class="span2">
                 CALENDAR
               </div>
               <div class="span2">
-                COLLECTIONS
+                <a href="http://library.gwu.edu/scrc/collections" title="see our online Collections">COLLECTIONS</a>
               </div>
               <div class="span2 nav-items nav-items-items">
-                ITEMS
+                <a href=http://exhibits.library.gwu.edu/items/browse" title="browse items in our collections">ITEMS</a>
               </div>
               <div class="span2 nav-items nav-items-contact">
                 CONTACT US

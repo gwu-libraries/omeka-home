@@ -75,7 +75,13 @@ ul {
   border-bottom:1px dotted #dbad41;
 }
 
-.nav-items {}
+.nav-items {
+}
+
+.nav-items a:link {color:#dbad41;}
+.nav-items a:visited {color:#dbad41;}
+.nav-items a:hover: {color:#dbad41; text-decoration:underline;}
+.nav-items a:active: {color:#dbad41;}
 
 .nav-items-items {
   text-align:center;
