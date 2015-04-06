@@ -137,7 +137,7 @@ jQuery(document).ready(function($) {
               </div>
 	    </div>
 
-            <div style="margin-top: 1em; margin-bottom:2em; margin-top:2em;" class="row-fluid">
+            <div id="three-col-showcase" class="row-fluid">
               <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
 		<div class="content-block">
                 <h2>COLLECTIONS</h2>

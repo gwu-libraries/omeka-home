@@ -109,6 +109,12 @@ ul {
     border: 0;
 }
 
+#three-col-showcase {
+  margin-top: 1em; 
+  margin-bottom: 0; 
+  margin-top: 2em;
+}
+
 /* footer */
 #local-footer {
 }
@@ -212,7 +218,7 @@ ul {
 .showcase-column {}
 
 /* overriding libheader-lite since we're not using its header or footer */
-.libsite-container {margin-top: 1em; margin-bottom:0;}
+.libsite-container {margin-top: 1em;}
 
 
 /* MEDIA QUERIES */
@@ -312,6 +318,12 @@ li.bjqs-next, li.bjqs-prev {
     padding-top:.5em;
     margin-top:1em;
   }
+
+  /* adjusting Libsite Header for spacing above custom footer */
+  article.libsite-container {
+    margin-bottom: 1em;
+  }
+
   #local-footer-links {
     display: none;
   }
