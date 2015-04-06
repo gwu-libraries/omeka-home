@@ -211,8 +211,8 @@ ul {
 
 .showcase-column {}
 
-/* overriding libheader-lite since we're not using its header */
-.libsite-container {margin-top: 1em;}
+/* overriding libheader-lite since we're not using its header or footer */
+.libsite-container {margin-top: 1em; margin-bottom:0;}
 
 
 /* MEDIA QUERIES */
