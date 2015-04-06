@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
       <header style="margin-bottom:0; padding-bottom:0;">
 	<div id="header-container">
         <div id="header-contents" style="margin:0 auto; width:100%; max-width:1300px;">
-	  <img style="width:100%;" src="header-image.png" />
+	  <img style="width:100%;" src="header-image.png" alt="image: header for Exhibits site" />
         </div>
         </div>
       </header><!-- end portal header -->
@@ -193,7 +193,7 @@ foreach($itemArrayDesc as $info){
   $jsondata2 = file_get_contents($json_string2);
   $itemArray2  = json_decode($jsondata2, true);
     foreach($itemArray2 as $info2){
-      //echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
+      //echo "<div style='margin:.5em .5em 0;'><img alt="image thumbnail" style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
   echo "<li><a href='http://exhibits.library.gwu.edu/items/show/" . $info['id']  . "'>" . $info['element_texts'][0]['text'] . "</a></li>";
 
@@ -210,7 +210,7 @@ $('#items-list > :first-child').addClass("first");
 		</div>
               </div>
               <div class="span6 showcase-column" style="min-height:380px;">
-		<img src="featured-placeholder.png" style="width:100%; margin-bottom:1em;" />
+		<img src="featured-placeholder.png" alt="image: featured exhibit" style="width:100%; margin-bottom:1em;" />
                 <div class="content-block">
                 <h2>Hear in DC: The DC Vernacular Music Archive</h2>
                 <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
@@ -221,12 +221,12 @@ $('#items-list > :first-child').addClass("first");
 		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
                 <div>
-                <img src="exhibit-hebrew.png" style="width:100%;" />
+                <img src="exhibit-hebrew.png" alt="Exhibit: Hebrew Printing in Ukraine" style="width:100%;" />
                 <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Hebrew Printing in Ukraine</p>
                 <p style="font-size:.8em; padding-left:.5em;">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a href="#">more</a></p>
                 </div>
                 <div>
-                <img src="exhibit-president.png" style="width:100%;" />
+                <img src="exhibit-president.png" alt="Exhibit: Presidential Presence" style="width:100%;" />
                 <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Presidential Presence</p>
                 <p style="font-size:.8em; padding-left:.5em;">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
                 </div>
@@ -290,7 +290,7 @@ foreach($itemArrayDesc as $info){
   $jsondata2 = file_get_contents($json_string2);
   $itemArray2  = json_decode($jsondata2, true);
     foreach($itemArray2 as $info2){
-      echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
+      echo "<div style='margin:.5em .5em 0;'><img alt ='image thumbnail' style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
   echo "<div style='font-size:.8em;'>" . $info['element_texts'][0]['text'] . " (item id " . $info['id'] . ")</div></div>";
         
@@ -359,7 +359,7 @@ foreach ($arr as &$value) {
         <section class="pane clear" id="local-footer"> 
 
         <div id="logo-container">
-          <img style="" src="gw_iddol_libraries_wht_rev_resized.png">
+          <img style="" alt="logo: George Washington University Libraries" src="gw_iddol_libraries_wht_rev_resized.png">
         </div>
 
 	<div class="footer-lib-logo">
