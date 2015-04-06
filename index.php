@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
       <header style="margin-bottom:0; padding-bottom:0;">
 	<div id="header-container">
         <div id="header-contents" style="margin:0 auto; width:100%; max-width:1300px;">
-	  <img style="width:100%;" src="header-image.png" alt="image: header for Exhibits site" />
+	  <img style="width:100%;" src="header-image.png" />
         </div>
         </div>
       </header><!-- end portal header -->
@@ -79,23 +79,23 @@ jQuery(document).ready(function() {
                 </div>
             </div>
 
-<script>
-jQuery(document).ready(function($) {
-	$('#slider').bjqs({
-		'height' : 320,
-		'width' : 1200,
-		'responsive' : true,
-                'nexttext' : '<i class="fa fa-angle-right fa-2x"></i>', 
-                'prevtext' : '<i class="fa fa-angle-left fa-2x"></i>' 
-	});
-});
-</script>
+              <script>
+              jQuery(document).ready(function($) {
+              	$('#slider').bjqs({
+              		'height' : 320,
+              		'width' : 1200,
+              		'responsive' : true,
+                              'nexttext' : '<i class="fa fa-angle-right fa-2x"></i>', 
+                              'prevtext' : '<i class="fa fa-angle-left fa-2x"></i>' 
+              	});
+              });
+              </script>
 
-<p class="handheld-nav-toggle" style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
+            <p class="handheld-nav-toggle" style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
             <div class="row-fluid nav-items content-1" style="margin-top:1em; width:100%;">
               <div class="span2">
-		<a href="http://exhibits.library.gwu.edu/about" title="more information about GW Libraries Exhibits">ABOUT US</a>	
+		            <a href="http://exhibits.library.gwu.edu/about" title="more information about GW Libraries Exhibits">ABOUT US</a>	
               </div>
               <div class="span2">
                 <a href="https://library.gwu.edu/collections/exhibits" title="see our online Exhibits">EXHIBITS</a>
@@ -107,34 +107,34 @@ jQuery(document).ready(function($) {
                 <a href="http://library.gwu.edu/scrc/collections" title="see our online Collections">COLLECTIONS</a>
               </div>
               <div class="span2 nav-items nav-items-items">
-                <a href=http://exhibits.library.gwu.edu/items/browse" title="browse items in our collections">ITEMS</a>
+                <a href="http://exhibits.library.gwu.edu/items/browse" title="browse items in our collections">ITEMS</a>
               </div>
               <div class="span2 nav-items nav-items-contact">
                 <a href="https://library.gwu.edu/scrc/general/contact" title="contact information for Special Collections Research Center at GW Libraries">CONTACT US</a>
               </div>
             </div>
 
-	    <div style="margin-top:1em;margin-bottom:-2em;" class="row-fluid">
+	    <div id="intro-title-container" class="row-fluid">
 	      <div class="span12">
-		<div class="content-block" style="padding-left:0;">
-		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
-		</div>
+      		<div class="content-block" style="padding-left:0;">
+      		<h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
+      		</div>
 	      </div>
 	    </div>
-	    <div style="min-height:110px; padding-top:1.8em;background-image:url(intro-text-background.png); background-size:cover;" class="row-fluid">
+	    <div id="intro-content-container" class="row-fluid">
 	      <div style="font-size:.8em;" class="span5">
 		<div class="content-block">
-	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
+	    <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
 		</div>
-	      </div>
-              <div style="font-size:.8em;" class="span5">
-		<div class="content-block">
-		<p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum.</p>
-		</div>
-              </div>
-              <div class="span2">
-		<!--<p>(empty span2)</p>-->
-              </div>
+      </div>
+        <div style="font-size:.8em;" class="span5">
+      		<div class="content-block">
+      		<p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum.</p>
+      		</div>
+        </div>
+          <div class="span2">
+		        <!--<p>(empty span2)</p>-->
+          </div>
 	    </div>
 
             <div id="three-col-showcase" class="row-fluid">
@@ -160,9 +160,11 @@ foreach($itemArrayDesc as $info){
   if (++$j == 30) break;
 }
 ?>
+
 <script>
 $('#collection-list > :first-child').addClass("first");
 </script>
+
 		</ul>
 		<p style="margin-top:1.6em; margin-left:25px; font-size:.9em;"><a href="http://exhibits.library.gwu.edu/collections/browse">Browse Collections</a></p>
 		<h2>RECENT ITEMS</h2>
@@ -193,7 +195,7 @@ foreach($itemArrayDesc as $info){
   $jsondata2 = file_get_contents($json_string2);
   $itemArray2  = json_decode($jsondata2, true);
     foreach($itemArray2 as $info2){
-      //echo "<div style='margin:.5em .5em 0;'><img alt="image thumbnail" style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
+      //echo "<div style='margin:.5em .5em 0;'><img style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
     }
   echo "<li><a href='http://exhibits.library.gwu.edu/items/show/" . $info['id']  . "'>" . $info['element_texts'][0]['text'] . "</a></li>";
 
@@ -210,7 +212,7 @@ $('#items-list > :first-child').addClass("first");
 		</div>
               </div>
               <div class="span6 showcase-column" style="min-height:380px;">
-		<img src="featured-placeholder.png" alt="image: featured exhibit" style="width:100%; margin-bottom:1em;" />
+		<img src="featured-placeholder.png" style="width:100%; margin-bottom:1em;" />
                 <div class="content-block">
                 <h2>Hear in DC: The DC Vernacular Music Archive</h2>
                 <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
@@ -221,12 +223,12 @@ $('#items-list > :first-child').addClass("first");
 		<div class="content-block">
                 <h2>ONLINE EXHIBITS</h2>
                 <div>
-                <img src="exhibit-hebrew.png" alt="Exhibit: Hebrew Printing in Ukraine" style="width:100%;" />
+                <img src="exhibit-hebrew.png" style="width:100%;" />
                 <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Hebrew Printing in Ukraine</p>
                 <p style="font-size:.8em; padding-left:.5em;">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a href="#">more</a></p>
                 </div>
                 <div>
-                <img src="exhibit-president.png" alt="Exhibit: Presidential Presence" style="width:100%;" />
+                <img src="exhibit-president.png" style="width:100%;" />
                 <p style="margin-bottom:.3em; margin-top:.5em; color:#eb8e61;">Presidential Presence</p>
                 <p style="font-size:.8em; padding-left:.5em;">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
                 </div>
@@ -234,121 +236,7 @@ $('#items-list > :first-child').addClass("first");
 		</div>
               </div>
             </div>
-
-            <div class="row-fluid" style="display:none;">
-                <div class="span8" style="height:500px; overflow:hidden;"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
-                    <h2>Var Dump</h2>
-<?php 
-$json_string = 'http://exhibits.library.gwu.edu/api/items';
-$jsondata = file_get_contents($json_string);
-//$obj = json_decode($jsondata,true);
-
-// get header info
-echo "<p>Header Response</p>";
-
-$url = 'http://exhibits.library.gwu.edu/api/items';
-print_r(get_headers($url));
-print_r(get_headers($url, 1));
-
-$headerArray = get_headers($url, 1);
-echo "<p style='margin-top:2em;'>header total results: " . $headerArray['Omeka-Total-Results'] . "</p>";
-
-$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
-
-echo '<p>&nbsp;</p><p>Dump of Items json</p>';
-
-var_dump($itemArray); 
-?>
-                </div>
-                <div class="span4" style="overflow:hidden;"> <!-- this is a 'sidebar' column that takes up 4 of the 12 columns within this content area -->
-                    <h2>Omeka API Test</h2>
-
-<?php
-
-// items
-
-$headerArray = get_headers($url, 1);
-// echo "<p style='margin-top:2em;'>header total results: " . $headerArray['Omeka-Total-Results'] . "</p>";
-
-$howMany = ceil($headerArray['Omeka-Total-Results'] / 50);
-
-$json_string = "http://exhibits.library.gwu.edu/api/items?page=" . $howMany;
-$jsondata = file_get_contents($json_string);
-//$obj = json_decode($jsondata,true);
-
-$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
-$itemArrayDesc = array_reverse($itemArray);
-
-echo "<p>Total Items = " . $headerArray['Omeka-Total-Results'] . " which means " . $howMany . " pages (sets of 50)</p>";
-
-$i = 0;
-foreach($itemArrayDesc as $info){
-  echo "<div style='margin-bottom:3em;'>"; 
-
-  $theVar = $info['files']['url'];
-  $json_string2 = $theVar;
-  $jsondata2 = file_get_contents($json_string2);
-  $itemArray2  = json_decode($jsondata2, true);
-    foreach($itemArray2 as $info2){
-      echo "<div style='margin:.5em .5em 0;'><img alt ='image thumbnail' style='border:1px solid #ccc;' src='" . $info2['file_urls']['thumbnail'] . "'></div><br />";
-    }
-  echo "<div style='font-size:.8em;'>" . $info['element_texts'][0]['text'] . " (item id " . $info['id'] . ")</div></div>";
-        
-  if (++$i == 5) break;
-}
-
-// exhibits
-
-$json_string = 'http://exhibits.library.gwu.edu/api/exhibits';
-$jsondata = file_get_contents($json_string);
-//$obj = json_decode($jsondata,true);
-
-$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
-$itemArrayDesc = array_reverse($itemArray);
-
-echo "<h2>Exhibits</h2>";
-//$j = 0;
-foreach($itemArrayDesc as $info){
-  //echo "<div>";
-
-  echo "<p><a href='http://exhibits.library.gwu.edu/exhibits/show/" . $info['slug'] . "'>" . $info['title'] . "</a> (exhibit id " . $info['id'] . ")</p>";
-
-  //if (++$j == 30) break;
-}
-
-// collections
-
-$json_string = 'http://exhibits.library.gwu.edu/api/collections';
-$jsondata = file_get_contents($json_string);
-//$obj = json_decode($jsondata,true);
-
-$itemArray  = json_decode($jsondata, true); // decode JSON to associative array
-$itemArrayDesc = array_reverse($itemArray);
-
-//echo "<h2 style='margin-top:2em;'>Collections</h2>";
-$j = 0;
-foreach($itemArrayDesc as $info){
-  //echo "<div>";
-
-  //echo "<p><a href='http://exhibits.library.gwu.edu/collections/show/" . $info['id'] . "'>" . $info['element_texts'][0]['text'] . " (collection id " . $info['id'] . ")</p>";
-
-  if (++$j == 30) break;
-}
-
-// var_dump($itemArray2);
-
-$arr = $obj;
-foreach ($arr as &$value) {
-  //echo 'test ' . $arr[0] . '<br>';
-}
-
-//echo "<pre>";
-//print_r($obj);
-//echo "</pre>";
-?>
-                    
-            </div>
-            
+   
         </article> <!-- /container -->
         <!-- end page content -->
        
@@ -359,7 +247,7 @@ foreach ($arr as &$value) {
         <section class="pane clear" id="local-footer"> 
 
         <div id="logo-container">
-          <img style="" alt="logo: George Washington University Libraries" src="gw_iddol_libraries_wht_rev_resized.png">
+          <img style="" src="gw_iddol_libraries_wht_rev_resized.png">
         </div>
 
 	<div class="footer-lib-logo">
@@ -396,11 +284,6 @@ foreach ($arr as &$value) {
 	</section> 
 	<!-- end Libraries Footer -->	
 
-
-
-
-
-
           </div>
           </div>
         </footer><!-- end portal footer -->
@@ -410,4 +293,3 @@ foreach ($arr as &$value) {
         
     </body>
 </html>
-

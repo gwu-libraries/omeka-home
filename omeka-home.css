@@ -69,6 +69,24 @@ ul {
   list-style-type: square;
 }
 
+/* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+#three-col-showcase {
+  margin-top: 1em; 
+  margin-bottom: 0; 
+  margin-top: 2em;
+}
+
 .content-block ul li {
   padding-top:.4em;
   padding-bottom:.4em;
@@ -96,23 +114,32 @@ ul {
 .showit {display:inline; color:#2971a7;}
 .hideit {display:none; color:#2971a7;}
 
-/* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
+.content-block {padding: 0 .5em .3em;}
+
+.overview-left-text {
+  padding: 0 1em;
 }
 
-#three-col-showcase {
-  margin-top: 1em; 
-  margin-bottom: 0; 
-  margin-top: 2em;
+.overview-right-text {
+  padding-right: 3em;
 }
+
+#intro-title-container {
+  margin-top: 1em;
+  margin-bottom: -2em;
+}
+
+#intro-content-container {
+  min-height: 110px; 
+  padding-top: 1.8em;
+  background-image: url(intro-text-background.png); 
+  background-size: cover;
+}
+
+.showcase-column {}
+
+/* overriding libheader-lite since we're not using its header or footer */
+.libsite-container {margin-top: 1em;}
 
 /* footer */
 footer {}
@@ -204,21 +231,6 @@ footer {}
 }
 /* end footer */
 
-.content-block {padding: 0 .5em .3em;}
-
-.overview-left-text {
-  padding: 0 1em;
-}
-.overview-right-text {
-  padding-right: 3em;
-}
-
-.showcase-column {}
-
-/* overriding libheader-lite since we're not using its header or footer */
-.libsite-container {margin-top: 1em;}
-
-
 /* MEDIA QUERIES */
 
 @media screen and (min-width:1200px) {
@@ -273,11 +285,9 @@ footer {}
   #header-container, #footer-container {
     width:100%;
   }
-
   #slider-row {
     margin-top: 0;
   }
-
   p.bjqs-caption {
     font-size: 1.2em;
     height:18px;
@@ -288,40 +298,32 @@ footer {}
   ol.bjqs-markers.h-centered {
    bottom: .1em;
   }
-
   li.bjqs-next, li.bjqs-prev {
   display: none;
   }
-
   .handheld-nav-toggle {display: block;}
   .content-1 {display: none;}
-
   .nav-items-items {
     text-align:left;
   }
   .nav-items-contact {
     text-align:left;
   }
-
   .overview-left-text {
     padding: 0;
   }  
   .overview-right-text {
     padding: 0;
   }
-
   .showcase-column {
     padding-top:.5em;
     margin-top:1em;
   }
-
   /* adjusting Libsite Header for spacing above custom footer */
   article.libsite-container {
     margin-bottom: 1em;
   }
-
   #local-footer-links {
     display: none;
   }
 }
-
