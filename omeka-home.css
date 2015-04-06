@@ -62,6 +62,9 @@ a:active: {color:#eb8e61;}
 
 .content-block li.first a:link {color:#eb8e61;}
 .content-block li a:link {color:#333;}
+.content-block li a:visited {color:#333;}
+.content-block li a:hover {color:#333; text-decoration:underline;}
+.content-block li a:active {color:#333;}
 
 ul {
   list-style-type: square;
