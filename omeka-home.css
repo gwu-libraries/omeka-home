@@ -55,12 +55,10 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 }
 /* end slider customization */
 
-footer {}
-
 a:link {color:#eb8e61;}
-a:visited {}
-a:hover: {}
-a:active: {}
+a:visited {color:#eb8e61;}
+a:hover: {color:#eb8e61; text-decoration:underline;}
+a:active: {color:#eb8e61;}
 
 .content-block li.first a:link {color:#eb8e61;}
 .content-block li a:link {color:#333;}

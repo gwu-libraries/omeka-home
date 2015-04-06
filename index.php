@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
                 <a href="https://library.gwu.edu/collections/exhibits" title="see our online Exhibits">EXHIBITS</a>
               </div>
               <div class="span2">
-                CALENDAR
+                <a href="#" title="see our schedule of upcoming events">CALENDAR</a>
               </div>
               <div class="span2">
                 <a href="http://library.gwu.edu/scrc/collections" title="see our online Collections">COLLECTIONS</a>
@@ -110,7 +110,7 @@ jQuery(document).ready(function($) {
                 <a href=http://exhibits.library.gwu.edu/items/browse" title="browse items in our collections">ITEMS</a>
               </div>
               <div class="span2 nav-items nav-items-contact">
-                CONTACT US
+                <a href="https://library.gwu.edu/scrc/general/contact" title="contact information for Special Collections Research Center at GW Libraries">CONTACT US</a>
               </div>
             </div>
 
