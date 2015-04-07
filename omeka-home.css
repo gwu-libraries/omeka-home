@@ -173,12 +173,20 @@ li {
 
 #featured-exhibit-image {margin-bottom:1em;}
 
-#current-exhibits-link {margin-top:2em;}
+.current-exhibits-link {margin-top:2em;}
+.current-exhibits-link a:link {color:#333; text-decoration:underline;}
+.current-exhibits-link a:visited {color:#333;}
+.current-exhibits-link a:hover: {color:#dbad41; text-decoration:none; }
+.current-exhibits-link a:active: {color:#333;}
 
 .online-exhibit-title {margin-bottom:.3em; margin-top:.5em; color:#eb8e61;}
 .online-exhibit-text {font-size:.8em; padding-left:.5em;}
-.all-online-exhibits-link {margin-top:2em;}
 
+.all-online-exhibits-link {margin-top:2em;}
+.all-online-exhibits-link a:link {color:#333; text-decoration:underline;}
+.all-online-exhibits-link a:visited {color:#333;}
+.all-online-exhibits-link a:hover: {color:#dbad41; text-decoration:none; }
+.all-online-exhibits-link a:active: {color:#333;}
 
 /* footer */
 footer {}

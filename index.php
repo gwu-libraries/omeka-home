@@ -220,7 +220,7 @@
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
             <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="#">more</a></p>
-            <h3 class="curent-exhibits-link"><a href="#">CURRENTLY INSTALLED EXHIBITS</a><h3>
+            <h3 class="current-exhibits-link"><a href="#">CURRENTLY INSTALLED EXHIBITS</a><h3>
       		</div>
         </div>
 
