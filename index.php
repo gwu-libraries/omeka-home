@@ -92,9 +92,9 @@
       });
       </script>
 
-      <p class="handheld-nav-toggle"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
+      <p class="handheld-nav-toggle"><span class="showit expand-1" id="plus1">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
-      <div class="row-fluid nav-items content-1" style="margin-top:1em; width:100%;">
+      <div class="row-fluid nav-items content-1" id="nav-items">
         <div class="span2">
           <a href="http://exhibits.library.gwu.edu/about" title="more information about GW Libraries Exhibits">ABOUT US</a>	
         </div>
@@ -117,18 +117,18 @@
 
 	    <div id="intro-title-container" class="row-fluid">
 	      <div class="span12">
-      		<div class="content-block" style="padding-left:0;">
+      		<div class="content-block" id="intro-title">
       		  <h1>EXHIBITS AT THE UNIVERSITY LIBRARIES</h1>
       		</div>
 	      </div>
 	    </div>
 	    <div id="intro-content-container" class="row-fluid">
-	      <div style="font-size:.8em;" class="span5">
-  		<div class="content-block">
-  	    <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
-  		</div>
-      </div>
-        <div style="font-size:.8em;" class="span5">
+	      <div class="span5">
+  		    <div class="content-block">
+  	        <p class="overview-left-text">Donec suspendisse ac, erat nec hac quam vitae, nibh sapien, magnis tortor ut et vitae elementum enim. Tincidunt vel sed augue praesent consequat magna, aenean eu orci. Pellentesque dictum nibh nibh id, molestie non, turpis id vestibulum nunc amet lectus, tortor amet placerat, illo mollis scelerisque malesuada vitae sed.</p>
+  		    </div>
+        </div>
+        <div class="span5">
       		<div class="content-block">
       		  <p class="overview-right-text">Nisl nonummy. Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum.</p>
       		</div>
@@ -139,7 +139,7 @@
 	    </div>
 
       <div id="three-col-showcase" class="row-fluid">
-        <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
+        <div class="span3 showcase-column-3">
 		      <div class="content-block">
             <h2>COLLECTIONS</h2>
 	          <ul id="collection-list">
@@ -215,12 +215,7 @@
         	</div>
         </div>
 
-        <div class="span6 showcase-column" style="min-height:380px;">
-
-
-
-      <!-- clean to here -->
-
+        <div class="span6 showcase-column">
       		<img src="featured-placeholder.png" style="width:100%; margin-bottom:1em;" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
@@ -229,7 +224,7 @@
       		</div>
         </div>
 
-        <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
+        <div class="span3 showcase-column-3">
       		<div class="content-block">
             <h2>ONLINE EXHIBITS</h2>
             <div>

@@ -130,10 +130,17 @@ li {
   font-size:1.25em;
 }
 .content-1 {}
+#plus1 {color:#eb8e61; font-weight:700;}
+#minus1 {color:#eb8e61; font-weight:700;}
+#nav-items {margin-top:1em; width:100%;}
 .showit {display:inline; color:#2971a7;}
 .hideit {display:none; color:#2971a7;}
 
-.content-block {padding: 0 .5em .3em;}
+.content-block {padding:0 .5em .3em;}
+
+#content-title {padding-left:0;}
+
+#intro-content-container {font-size:.8em;}
 
 .overview-left-text {
   padding: 0 1em;
@@ -155,7 +162,8 @@ li {
   background-size: cover;
 }
 
-.showcase-column {}
+.showcase-column {min-height:380px;}
+.showcase-column-3 {min-height:380px; background:#dfdedd;}
 
 /* overriding libheader-lite since we're not using its header or footer */
 .libsite-container {margin-top: 1em;}
