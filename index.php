@@ -18,7 +18,6 @@
     <link href="bjqs.css" rel="stylesheet" />
     <!-- omeka-home custom css -->
     <link href="omeka-home.css" rel="stylesheet" />
-    <!-- print styles are included in base libheader7_lite.css --> 
 
     <!-- js (some js links are at the bottom of the page) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -27,14 +26,12 @@
 
     <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
     <!--[if lt IE 9]>
-    <link href="css/libheader7_lite_ie.css" rel="stylesheet">
+    <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_ie.css" rel="stylesheet">
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <script type="text/javascript">
     jQuery(document).ready(function() {
-      //jQuery(".content-1").hide();
-      //toggle the component with class msg_body
       jQuery(".expand-1").click(function()
       {
         jQuery(".content-1").slideToggle(300);
@@ -55,14 +52,17 @@
     <link rel="apple-touch-icon" href="http://library.gwu.edu/app-assets/libheader/2_002/img/apple-touch-icon-iphone.png"><!-- optional, and this is just the min version -->
 
   </head> 
+
   <body>
-    <header style="margin-bottom:0; padding-bottom:0;">
+    <!-- portal header -->
+    <header>
     	<div id="header-container">
-        <div id="header-contents" style="margin:0 auto; width:100%; max-width:1300px;">
-    	    <img style="width:100%;" src="header-image.png" />
+        <div id="header-contents">
+    	    <img src="header-image.png" />
         </div>
       </div>
-    </header><!-- end portal header -->
+    </header>
+    <!-- end portal header -->
         
     <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
     <article class="libsite-container container">
@@ -71,6 +71,7 @@
         <div class="span12" id="slider-row"> 
           <div style="margin:0 auto;" id="slider">
 	          <ul class="bjqs">
+              <!-- title is used as caption -->
 		          <li><img src="masthead-slideshow-placeholder.png" alt="The PNC-RIGGS Collection" title="The PNC-RIGGS Collection" /></li>
 		          <li><img src="masthead-slideshow-placeholder-2.png" alt="alt tag here" title="The Test Collection" /></li>
               <li><img src="masthead-slideshow-placeholder-3.png" alt="alt tag here" title="The Monument Collection" /></li>
@@ -91,7 +92,7 @@
       });
       </script>
 
-      <p class="handheld-nav-toggle" style="margin-top:1em; font-size:1.25em;"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
+      <p class="handheld-nav-toggle"><span class="showit expand-1" id="plus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-bars"></i></span><span class="hideit expand-1" id="minus1" style="color:#eb8e61; font-weight:700;">MENU <i class="fa fa-minus-square-o"></i></span></p>
 
       <div class="row-fluid nav-items content-1" style="margin-top:1em; width:100%;">
         <div class="span2">
@@ -141,7 +142,6 @@
         <div class="span3 showcase-column" style="min-height:380px; background:#dfdedd;">
 		      <div class="content-block">
             <h2>COLLECTIONS</h2>
-	          <style>li {font-size:.8em;}</style>
 	          <ul id="collection-list">
 
               <?php

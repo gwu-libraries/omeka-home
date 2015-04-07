@@ -6,7 +6,18 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 
-header {}
+header {
+  margin-bottom: 0; 
+  padding-bottom: 0;
+}
+#header-contents {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+}
+#header-contents img {
+  width: 100%;
+}
 
 #slider-row {
   margin-top: 1em;
@@ -52,6 +63,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #fff;
   color: #000;
 }
+
 /* end slider customization */
 
 a:link {color:#eb8e61;}
@@ -67,6 +79,9 @@ a:active: {color:#eb8e61;}
 
 ul {
   list-style-type: square;
+}
+li {
+  font-size: .8em;
 }
 
 /* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
@@ -109,7 +124,11 @@ ul {
 }
 
 /* expand/collapse nav */
-.handheld-nav-toggle {display: none;}
+.handheld-nav-toggle {
+  display: none;
+  margin-top:1em; 
+  font-size:1.25em;
+}
 .content-1 {}
 .showit {display:inline; color:#2971a7;}
 .hideit {display:none; color:#2971a7;}
