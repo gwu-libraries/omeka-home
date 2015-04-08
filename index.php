@@ -219,7 +219,7 @@
       		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="featured-placeholder.png" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
-            <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a aria-label="more about the Hear in DC exhibit" href="#">more</a></p>
+            <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="http://library.gwu.edu/news-events/posts/hear-dc-vernacular-music-nations-capital" aria-label="more about the Hear in DC exhibit">read more</a></p>
             <h3 class="current-exhibits-link"><a href="#">CURRENTLY INSTALLED EXHIBITS</a><h3>
       		</div>
         </div>
@@ -230,12 +230,12 @@
             <div>
               <img alt="Hebrew Printing in Ukraine splash image" src="exhibit-hebrew.png" />
               <p class="online-exhibit-title">Hebrew Printing in Ukraine</p>
-              <p class="online-exhibit-text">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a aria-label="more about the Hebrew Printing exhibit" href="#">more</a></p>
+              <p class="online-exhibit-text">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a aria-label="more about the Hebrew Printing exhibit" href="#">read more</a></p>
             </div>
             <div>
               <img alt="Presidential Presence splash image" src="exhibit-president.png" />
               <p class="online-exhibit-title">Presidential Presence</p>
-              <p class="online-exhibit-text">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a aria-label="more about the Presidential Presence exhibit" href="#">more</a></p>
+              <p class="online-exhibit-text">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a aria-label="more about the Presidential Presence exhibit" href="#">read more</a></p>
             </div>
               <h3 class="all-online-exhibits-link"><a href="#">SEE ALL ONLINE EXHIBITS</a><h3>
 		      </div>
