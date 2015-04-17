@@ -9,7 +9,7 @@ Configuration:
 Moves files to a directory in root called "portal"
 
 Set .htaccess to redirect root traffic to /portal/index.php
-``
+```
 # redirect to root traffic from /var/www/index.php to /portal/index.php (custom portal) 
 RedirectMatch 303 ^/?$ /portal/index.php
-``
+```
