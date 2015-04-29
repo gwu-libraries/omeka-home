@@ -12,8 +12,8 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
     <!-- Font Awesome! http://fontawesome.io/get-started -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
-    <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
+    <link href="http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
+    <link href="http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
     <!-- basic-slider css -->
     <link href="css/bjqs.css" rel="stylesheet" />
     <!-- omeka-home custom css -->
@@ -26,7 +26,7 @@
 
     <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
     <!--[if lt IE 9]>
-    <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_ie.css" rel="stylesheet">
+    <link href="http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite_ie.css" rel="stylesheet">
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
@@ -48,8 +48,8 @@
     </script>
                                 
     <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="http://library.gwu.edu/app-assets/libheader/2_002/favicon.ico">
-    <link rel="apple-touch-icon" href="http://library.gwu.edu/app-assets/libheader/2_002/img/apple-touch-icon-iphone.png"><!-- optional, and this is just the min version -->
+    <link rel="shortcut icon" href="http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/favicon.ico">
+    <link rel="apple-touch-icon" href="http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/img/apple-touch-icon-iphone.png"><!-- optional, and this is just the min version -->
 
   </head> 
 
@@ -71,7 +71,7 @@
         <div class="span12" id="slider-row"> 
           <div style="margin:0 auto;" id="slider">
 	          <ul class="bjqs">
-              <!-- IMAGES FOR SLIDFESHOW. There can be more than three. Title is used as caption -->
+              <!-- IMAGES FOR SLIDESHOW. There can be more than three. Title is used as caption -->
 		          <li><img src="assets/masthead-slideshow-placeholder.png" alt="The PNC-RIGGS Collection" title="The PNC-RIGGS Collection" /></li>
 		          <li><img src="assets/masthead-slideshow-placeholder-2.png" alt="alt tag here" title="The Test Collection" /></li>
               <li><img src="assets/masthead-slideshow-placeholder-3.png" alt="alt tag here" title="The Monument Collection" /></li>
@@ -80,6 +80,7 @@
         </div>
       </div>
 
+      <!-- basic-slider controls. There are more options available: github.com/jcobb/basic-jquery-slider/ -->
       <script>
       jQuery(document).ready(function($) {
       	$('#slider').bjqs({
