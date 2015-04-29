@@ -6,7 +6,7 @@ A portal for our Omeka instance using Omeka APIs to expose content like newly ad
 
 Configuration:
 
-Moves files to a directory in root called "portal"
+Move files to a directory in root called "portal"
 
 Set .htaccess to redirect root traffic to /portal/index.php
 ```
