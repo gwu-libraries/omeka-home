@@ -158,7 +158,7 @@ li {
 #intro-content-container {
   min-height: 110px; 
   padding-top: 1.8em;
-  background-image: url(intro-text-background.png); 
+  background-image: url(css/intro-text-background.png); 
   background-size: cover;
 }
 

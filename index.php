@@ -216,7 +216,7 @@
         </div>
 
         <div class="span6 showcase-column">
-      		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="/featured-placeholder.png" />
+      		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="assets/featured-placeholder.png" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
             <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="http://library.gwu.edu/news-events/posts/hear-dc-vernacular-music-nations-capital" aria-label="more about the Hear in DC exhibit">read more</a></p>
