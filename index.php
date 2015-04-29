@@ -15,9 +15,9 @@
     <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
     <link href="http://library.gwu.edu/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
     <!-- basic-slider css -->
-    <link href="bjqs.css" rel="stylesheet" />
+    <link href="css/bjqs.css" rel="stylesheet" />
     <!-- omeka-home custom css -->
-    <link href="omeka-home.css" rel="stylesheet" />
+    <link href="css/omeka-home.css" rel="stylesheet" />
 
     <!-- js (some js links are at the bottom of the page) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -58,7 +58,7 @@
     <header>
     	<div id="header-container">
         <div id="header-contents">
-    	    <img alt="header image for the Exhibits page" src="header-image.png" />
+    	    <img alt="header image for the Exhibits page" src="assets/header-image.png" />
         </div>
       </div>
     </header>
@@ -72,9 +72,9 @@
           <div style="margin:0 auto;" id="slider">
 	          <ul class="bjqs">
               <!-- title is used as caption -->
-		          <li><img src="masthead-slideshow-placeholder.png" alt="The PNC-RIGGS Collection" title="The PNC-RIGGS Collection" /></li>
-		          <li><img src="masthead-slideshow-placeholder-2.png" alt="alt tag here" title="The Test Collection" /></li>
-              <li><img src="masthead-slideshow-placeholder-3.png" alt="alt tag here" title="The Monument Collection" /></li>
+		          <li><img src="assets/masthead-slideshow-placeholder.png" alt="The PNC-RIGGS Collection" title="The PNC-RIGGS Collection" /></li>
+		          <li><img src="assets/masthead-slideshow-placeholder-2.png" alt="alt tag here" title="The Test Collection" /></li>
+              <li><img src="assets/masthead-slideshow-placeholder-3.png" alt="alt tag here" title="The Monument Collection" /></li>
 	          </ul>
           </div>
         </div>
@@ -216,7 +216,7 @@
         </div>
 
         <div class="span6 showcase-column">
-      		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="featured-placeholder.png" />
+      		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="/featured-placeholder.png" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
             <p>Feugiat est nibh rhoncus auctor, felis ligula aliquam amet condimentum, amet lobortis vitae quam id. Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a href="http://library.gwu.edu/news-events/posts/hear-dc-vernacular-music-nations-capital" aria-label="more about the Hear in DC exhibit">read more</a></p>
@@ -228,12 +228,12 @@
       		<div class="content-block">
             <h2>ONLINE EXHIBITS</h2>
             <div>
-              <img alt="Hebrew Printing in Ukraine splash image" src="exhibit-hebrew.png" />
+              <img alt="Hebrew Printing in Ukraine splash image" src="assets/exhibit-hebrew.png" />
               <p class="online-exhibit-title">Hebrew Printing in Ukraine</p>
               <p class="online-exhibit-text">Iaculis placerat vitae, porttitor ac ornare quis. Libero eu varius et vivamus est sapien. <a aria-label="more about the Hebrew Printing exhibit" href="#">read more</a></p>
             </div>
             <div>
-              <img alt="Presidential Presence splash image" src="exhibit-president.png" />
+              <img alt="Presidential Presence splash image" src="assets/exhibit-president.png" />
               <p class="online-exhibit-title">Presidential Presence</p>
               <p class="online-exhibit-text">Libero eu varius et vivamus est sapien, porttitor lobortis diam a sodales, nisl adipiscing vel ac, risus dui platea neque condimentum. <a aria-label="more about the Presidential Presence exhibit" href="#">read more</a></p>
             </div>
@@ -252,7 +252,7 @@
           <section class="pane clear" id="local-footer"> 
 
             <div id="logo-container">
-              <img alt="logo: GW Libraries" src="gw_iddol_libraries_wht_rev_resized.png">
+              <img alt="logo: GW Libraries" src="assets/gw_iddol_libraries_wht_rev_resized.png">
             </div>
 
 	          <div class="footer-lib-logo">
