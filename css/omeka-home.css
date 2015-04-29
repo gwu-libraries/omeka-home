@@ -278,6 +278,10 @@ footer {}
 }
 /* end footer */
 
+/* Customizations to full-size view by Phil */
+/* your css here!
+/* end full-size customizations */
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width:1200px) {
@@ -290,6 +294,11 @@ footer {}
     background:#191919;
     width:100%;
   }
+
+/* Customizations to min 1200 view by Phil */
+/* your css here!
+/* end min 1200 customizations */
+
 }
 
 @media screen and (max-width:1220px) {
@@ -304,12 +313,22 @@ footer {}
     padding-left:1em;
     padding-right:1em;
   }
+
+/* Customizations to max 1220 view by Phil */
+/* your css here!
+/* end max 1220 customizations */
+
 }
 
 @media screen and (max-width:1160px) {
   #logo-container {
     display: none;
   }
+
+/* Customizations to max 1160 view by Phil */
+/* your css here!
+/* end max 1160 customizations */
+
 }
 
 @media screen and (max-width:860px) {
@@ -326,6 +345,11 @@ footer {}
   ol.bjqs-markers.h-centered {
     bottom: .5em;
   }
+
+/* Customizations to max 860 view by Phil */
+/* your css here!
+/* end max 860 customizations */
+
 }
 
 @media screen and (max-width:767px) {
@@ -373,4 +397,9 @@ footer {}
   #local-footer-links {
     display: none;
   }
+
+/* Customizations to max 767 view by Phil */
+/* your css here!
+/* end max 767 customizations */
+
 }
