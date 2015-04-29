@@ -8,7 +8,7 @@
     <meta name="author" content=""><!-- optional -->
         
     <!-- styles -->
-    <!-- these are the stylesheets: first two grab the Bootstrap cdn and Font Awesome! cdn stylesheets, the other two are for the Library theme -->
+    <!-- these are the stylesheets: the first two grab the Bootstrap cdn and Font Awesome! cdn stylesheets, the next two are for the Library bootswatch, followed by the slideshow css. Last is the "portal" css -->
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
     <!-- Font Awesome! http://fontawesome.io/get-started -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -293,7 +293,7 @@
       </div>
     </footer><!-- end portal footer -->
         
-    <!-- javascript placed at the end of the document so the pages load faster -->
+    <!-- javascript placed at the end of the document so page loads faster -->
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important -->
         
   </body>
