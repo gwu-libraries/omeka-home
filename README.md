@@ -1,8 +1,8 @@
 # omeka-home
-Custom home page for GW Libraries Omeka instance
-------------------------------------------------
+Custom home page for GW Libraries Exhibits (Omeka)
+--------------------------------------------------
 
-A portal for our Omeka instance using Omeka APIs to expose content like newly added items and featured exhibits combined with other online collections and content housed outside of Omeka.
+A portal for our Exhibits site using Omeka APIs to expose content like newly added items and featured exhibits combined with other online collections and content housed outside of Omeka.
 
 Configuration:
 
