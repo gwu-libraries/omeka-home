@@ -61,8 +61,10 @@
     <header>
     	<div id="header-container">
         <div id="header-contents">
-    	    <img alt="header image for the Exhibits page" src="assets/header-image.png" />
-        </div>
+	  <div class="header-title">
+    	    <img alt="header image for the Exhibits page" src="assets/exhibitslogo.png" />
+	  </div> 
+       </div>
       </div>
     </header>
     <!-- end portal header -->

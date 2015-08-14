@@ -70,9 +70,14 @@ header {
   padding-bottom: 0;
 }
 #header-contents {
-  margin: 0 auto;
+  margin: -10px auto 0;
   width: 100%;
-  max-width: 1000px; /* Christian temp change from 1300px; */
+  max-width: 1100px; /* Christian temp change from 1300px; */
+  background-image: url(../assets/background_1920.jpg);
+}
+#header-contents .header-title {
+  max-width: 800px;
+  margin: 0 auto;
 }
 #header-contents img {
   width: 100%;
