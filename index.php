@@ -216,6 +216,7 @@
         </div>
 
         <div class="span6 showcase-column">
+                <div class="featured-title">Featured Exhibit</div>
       		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="assets/featured-placeholder.png" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>

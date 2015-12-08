@@ -72,7 +72,6 @@ header {
 #header-contents {
   margin: -10px auto 0;
   width: 100%;
-  max-width: 1100px; /* Christian temp change from 1300px; */
   background-image: url(../assets/background_1920.jpg);
 }
 #header-contents .header-title {
@@ -277,7 +276,26 @@ outline-offset: 1px;}
 
 .browse-link {margin-top:0; margin-bottom:1.6em; margin-left:25px; font-size:.9em;}
 
-#featured-exhibit-image {margin-bottom:1em;
+.featured-title {
+  font-family: 'BenchNine', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  font-weight: 700;
+  padding: 6px 20px;
+  width: 86%;
+  z-index: 500;
+  position: relative;
+  height: 42px;
+  top: 0px;
+  left: 1px;
+  color: #fff;
+  font-size: 2.2em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#featured-exhibit-image {
+  margin-top: -53px;
+  margin-bottom: 1em;
 }
 
 .current-exhibits-link {margin-top:2em;}
