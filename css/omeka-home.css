@@ -460,6 +460,13 @@ footer {}
 
 }
 
+@media screen and (max-width:979px) {
+  .featured-title {
+    width: 83.5%;
+    top: 1px;
+  }
+}
+
 @media screen and (max-width:860px) {
   #give-to {
     display: none;
@@ -519,9 +526,13 @@ footer {}
     padding-top:.5em;
     margin-top:1em;
   }
+  .showcase-column img {width:100%;}
   /* adjusting Libsite Header for spacing above custom footer */
   article.libsite-container {
     margin-bottom: 1em;
+  }
+  .featured-title {
+    width: 87%;
   }
   #local-footer-links {
     display: none;
@@ -530,9 +541,6 @@ footer {}
 /* Customizations to max 767 view by Phil */
 /* your css here!
 /* end max 767 customizations */
-
-
-
 
 }
 
