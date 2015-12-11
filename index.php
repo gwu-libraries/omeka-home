@@ -102,13 +102,13 @@
 
       <div class="row-fluid nav-items content-1" id="nav-items">
         <div class="span2">
-          <a href="about.html" title="more information about GW Libraries Exhibits">ABOUT US</a>	
+          <a href="about.php"ll title="more information about GW Libraries Exhibits">ABOUT US</a>	
         </div>
         <div class="span2">
           <a href="http://exhibits.library.gwu.edu/exhibits" title="see our online Exhibits">EXHIBITS</a>
         </div>
         <div class="span2">
-          <a href="schedule.html" title="see our schedule of upcoming events">CALENDAR</a>
+          <a href="schedule.php" title="see our schedule of upcoming events">CALENDAR</a>
         </div>
         <div class="span2">
           <a href="http://exhibits.library.gwu.edu/collections/browse" title="see our online Collections">COLLECTIONS</a>
