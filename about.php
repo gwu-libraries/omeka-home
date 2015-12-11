@@ -97,7 +97,7 @@
     </article> <!-- /container -->
         <!-- end page content -->
       
-    <footer> 
+    <footer class="navbar-fixed-bottom"> 
       <div id="footer-container">
         <div id="footer-content">
 
