@@ -61,7 +61,9 @@
     <header>
     	<div id="header-container">
         <div id="header-contents">
-    	    <img alt="header image for the Exhibits page" src="assets/header-image.png" />
+          <div class="header-title">
+            <img alt="header image for the Exhibits page" src="assets/exhibitslogo.png" />
+          </div>
         </div>
       </div>
     </header>
@@ -70,54 +72,29 @@
     <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
     <article class="libsite-container container">
 
-        <div class="row-fluid nav-items content-1" id="nav-items">
-        <div class="span2">
-          <a href="about.html" title="more information about GW Libraries Exhibits">ABOUT US</a>	
-        </div>
-        <div class="span2">
-          <a href="http://exhibits.library.gwu.edu/exhibits" title="see our online Exhibits">EXHIBITS</a>
-        </div>
-        <div class="span2">
-          <a href="schedule.html" title="see our schedule of upcoming events">CALENDAR</a>
-        </div>
-        <div class="span2">
-          <a href="http://exhibits.library.gwu.edu/collections/browse" title="see our online Collections">COLLECTIONS</a>
-        </div>
-        <div class="span2 nav-items nav-items-items">
-          <a href="http://exhibits.library.gwu.edu/items/browse" title="browse items in our collections">ITEMS</a>
-        </div>
-        <div class="span2 nav-items nav-items-contact">
-          <a href="https://library.gwu.edu/scrc/general/contact" title="contact information for Special Collections Research Center at GW Libraries">CONTACT US</a>
+      <div class="row-fluid">
+        <div class="span12">
+          <h1>ABOUT EXHIBITS AT THE George Washington LIBRARIES</h1>
+          <p>The GW Libraries Exhibits Program showcases and celebrates the libraries' strengths as a learning center; its role in supporting research and teaching at GW; its many local, national and international collections; and the research topics pursued by its staff. Exhibits are frequently displayed in conjunction with academic lectures, Library functions, collections receptions and related events.</p>
+  		  
+        <h2>ACCESS AND ENTRY REQUIREMENTS</h2>
+<p>Exhibit installations are are open to University staff, students and faculty, as well as the general public. Non-GW visitors must sign-in at the Entrance Services Desk and present photo ID.</p>
+
+<h2>PROPOSALS</h2>
+<p>The Exhibits Program seeks to establish, promote and strengthen Library interaction and collaboration with the GW academic staff and community. To that end, GW Libraries welcomes outside proposals for an exhibition. To propose an exhibit:</p>
+<p>Fill out the online <a href="/sites/default/files/collections/GWLibraries_Exhibitproposal%20form_distributed.pdf"><u>Exhibit Proposal Form</u></a> in its entirety, emailing the completed form to Exhibits Developer Phil Raino, <a href="mailto:raino_p@gwu.edu">raino_p@gwu.edu</a>.</p>
+<p>The Exhibits Committee will review each proposal and approve (or decline) the proposal within two weeks of submission. Approved exhibits will be developed in conjunction between the proposers and the Exhibits Developer. Approval is subject to exhibit space availability, staff resources and adherence to the principles contained in the Library's <a href="/sites/default/files/collections/GWU_Libraries_exhibits_policy_rev4.pdf"><u>Exhibits Policy</u></a>.</p>
+
+<h2>POLICY</h2>
+<p>Gelman Library&#39;s <a href="/sites/default/files/collections/GWU_Libraries_exhibits_policy_rev4.pdf"><u>Exhibits Policy</u></a> provides information about the Exhibit Committee&#39;s selection process, roles and responsibilities in the exhibit process, and guiding rights and principles.</p>
+      		
+        
         </div>
       </div>
 
-	    <div id="intro-title-container" class="row-fluid">
-	      <div class="span12">
-      		<div class="content-block" id="intro-title">
-      		  <h1>ABOUT EXHIBITS AT THE GW LIBRARIES</h1>
-      		</div>
-	      </div>
-	    </div>
-	         <p class="overview-left-text">The GW Libraries Exhibits Program showcases and celebrates the libraries' strengths as a learning center; its role in supporting research and teaching at GW; its many local, national and international collections; and the research topics pursued by its staff. Exhibits are frequently displayed in conjunction with academic lectures, Library functions, collections receptions and related events.</p>
-  		  
-          <strong>ACCESS AND ENTRY REQUIREMENTS</strong></h3>
-<p style="margin: 0px 0px 1.6em; padding: 0px; border: 0px; font-stretch: inherit; vertical-align: baseline;">Exhibit installations are&nbsp;are open to University staff, students and faculty, as well as the general public.&nbsp;Non-GW visitors&nbsp;must sign-in at the Entrance Services Desk and present&nbsp;photo ID.</p>
-
-           <h3><strong>PROPOSALS</strong></h3>
-<p>The Exhibits Program also seeks to establish, promote and strengthen the Gelman Library&#39;s community presence. To that end, we welcome any proposal for an exhibition. To propose an exhibit:</p>
-<p>Fill out the online <a href="/sites/default/files/collections/GWLibraries_Exhibitproposal%20form_distributed.pdf"><u>Exhibit Proposal Form</u></a> in its entirety, emailing the completed form to Exhibits Developer Phil Raino,&nbsp;<a href="mailto:raino_p@gwu.edu">raino_p@gwu.edu</a>.</p>
-<p>The Exhibits Committee will review each proposal and approve (or decline) the proposal within two weeks of submission. Approved exhibits will be developed in conjunction between the proposers and the Exhibits Developer. Approval is subject to exhibit space availability, staff resources and adherence to the principles contained in the Library&#39;s <a href="/sites/default/files/collections/GWU_Libraries_exhibits_policy_rev4.pdf"><u>Exhibits Policy</u></a>.</p>
-<p>&nbsp;</p>
-<h3><strong>POLICY</strong></h3>
-<p>Gelman Library&#39;s <a href="/sites/default/files/collections/GWU_Libraries_exhibits_policy_rev4.pdf"><u>Exhibits Policy</u></a> provides information about the Exhibit Committee&#39;s selection process, roles and responsibilities in the exhibit process, and guiding rights and principles.</p>
-      		
-      
-
-      
-   
     </article> <!-- /container -->
         <!-- end page content -->
-       
+      
     <footer> 
       <div id="footer-container">
         <div id="footer-content">
@@ -171,3 +148,4 @@
         
   </body>
 </html>
+
