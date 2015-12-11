@@ -60,11 +60,13 @@
     <!-- portal header -->
     <header>
     	<div id="header-container">
+        <a href="/portal/index.php">
         <div id="header-contents">
           <div class="header-title">
             <img alt="header image for the Exhibits page" src="assets/exhibitslogo.png" />
           </div>
         </div>
+        </a>
       </div>
     </header>
     <!-- end portal header -->
