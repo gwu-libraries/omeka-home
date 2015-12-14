@@ -217,6 +217,7 @@
 
         <div class="span6 showcase-column">
                 <div class="featured-title">Featured Exhibit</div>
+                <!-- image should be 712px wide -->
       		<img alt="featured exhibit splash image" id="featured-exhibit-image" src="assets/featured-placeholder.png" />
           <div class="content-block">
             <h2>Hear in DC: The DC Vernacular Music Archive</h2>
@@ -229,11 +230,13 @@
       		<div class="content-block-right">
             <h2>ONLINE EXHIBITS</h2>
             <div>
+              <!-- image should be 651px wide -->
               <img alt="Hebrew Printing in Ukraine splash image" src="assets/exhibit-hebrew.png" />
               <p class="online-exhibit-title">Hebrew Printing in Ukraine</p>
               <p class="online-exhibit-text">A geographic and typographic panorama of every region of this cultural crossroads, including ancient, medieval and modern texts printed over centuries in diverse territories. <a aria-label="http://exhibits.library.gwu.edu/ukraineprinting/" href="#">read more</a></p>
             </div>
             <div>
+              <!-- image should be 651px wide -->
               <img alt="CWAC" src="assets/Stowell.png" />
               <p class="online-exhibit-title">City Within a City: The Kerry Stowell Collection</p>
               <p class="online-exhibit-text">An overview of the storied residence's inhabitants, history and culture, from The Kerry Stowell Collection. <a aria-label="more about City Within a City" href="http://exhibits.library.gwu.edu/stowell/index.html">read more</a></p>
